@@ -1,0 +1,28 @@
+{
+  "name": "swarm-os",
+  "version": "4.0.0",
+  "description": "OmniSwarm: World-first BFT multi-agent platform with Lyapunov stability, VCG auctions, and mathematical physics of consensus.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test tests/test_physics.mjs",
+    "test:all": "node --test tests/test_suite.mjs && node --test tests/test_physics.mjs",
+    "panel": "node src/panel/server.mjs",
+    "demo": "node demo/run-full-demo.mjs",
+    "start": "node demo/run-full-demo.mjs",
+    "cloud": "node demo/cloud-boot.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aedes": "^1.0.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "mqtt": "^5.15.1",
+    "openai": "^6.33.0",
+    "socket.io": "^4.8.3",
+    "uuid": "^13.0.0"
+  },
+  "type": "module"
+}

@@ -1,0 +1,358 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmniSwarm v4.0 â€” Mathematical Physics of Consensus | Track 3 Agent Economy</title>
+    <meta name="description" content="Live Byzantine Fault-Tolerant multi-agent swarm dashboard with Lyapunov stability, Thermodynamics, Epidemic Râ‚€, VCG auctions, and Pareto-Nash equilibrium â€” Vertex Swarm Challenge 2026.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- FEATURE 1: Animated particle canvas background -->
+    <canvas id="particle-bg"></canvas>
+
+    <header class="glass-panel main-header">
+        <div class="logo-group">
+            <div class="logo-pulse"></div>
+            <div>
+                <div class="logo-title">OMNISWARM <span class="v3-badge">v4.0</span></div>
+                <div class="logo-sub">TRACK 3 Â· BFT AGENT ECONOMY Â· MATHEMATICAL PHYSICS OF CONSENSUS</div>
+            </div>
+        </div>
+
+        <!-- FEATURE 2: Live metric counters with animated flip -->
+        <div class="header-metrics">
+            <div class="metric-chip" id="chip-agents">
+                <span class="chip-label">AGENTS</span>
+                <span class="chip-value" id="count-agents">0</span>
+            </div>
+            <div class="metric-chip active-chip" id="chip-tasks">
+                <span class="chip-label">TASKS</span>
+                <span class="chip-value" id="count-tasks">0</span>
+            </div>
+            <div class="metric-chip gold-chip">
+                <span class="chip-label">VERIFIED</span>
+                <span class="chip-value" id="count-verified">0</span>
+            </div>
+            <div class="metric-chip cyan-chip">
+                <span class="chip-label">PROOFS</span>
+                <span class="chip-value" id="count-proofs">0</span>
+            </div>
+            <!-- FEATURE 3: Swarm Health Gauge -->
+            <div class="swarm-iq-container">
+                <canvas id="iq-gauge" width="80" height="80"></canvas>
+                <div class="iq-label">
+                    <div class="iq-value" id="swarm-iq">100</div>
+                    <div class="iq-sub">SWARM IQ</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-actions">
+            <button id="killBtn" class="btn-danger" title="Kill random agent to demo self-healing">âš¡ Fault Drill</button>
+            <button id="exportBtn" class="btn-cyan">ðŸ“¦ Export Proofs</button>
+            <button id="soundBtn" class="btn-icon" title="Toggle sound">ðŸ”‡</button>
+            <button id="themeToggle" class="btn-icon" title="Toggle theme">ðŸŒ—</button>
+        </div>
+    </header>
+
+    <!-- FEATURE 4: Connection status bar -->
+    <div class="connection-bar" id="conn-bar">
+        <span class="conn-dot offline"></span>
+        <span id="conn-label">Connecting to FoxMQ mesh...</span>
+        <span class="tps-badge">TPS: <strong id="tps-counter">0</strong></span>
+    </div>
+
+    <div class="dashboard-grid">
+
+        <!-- FEATURE 5: D3 live network topology with glow nodes -->
+        <section class="glass-panel topology-panel">
+            <div class="panel-header">
+                <div>
+                    <h3><span class="indicator live"></span> Network Topology</h3>
+                    <p class="panel-sub">Decentralised P2P mesh Â· <span id="topo-agents">0</span> nodes</p>
+                </div>
+                <div class="topo-legend">
+                    <span class="legend-dot gold"></span> Architect
+                    <span class="legend-dot cyan"></span> Scholar
+                    <span class="legend-dot green"></span> Verifier
+                    <span class="legend-dot red"></span> Dead
+                </div>
+            </div>
+            <div id="d3-topology-canvas" class="canvas-container"></div>
+
+            <!-- FEATURE 6: Node detail flyout -->
+            <div id="node-flyout" class="node-flyout hidden">
+                <button class="flyout-close" onclick="document.getElementById('node-flyout').classList.add('hidden')">âœ•</button>
+                <div class="flyout-title" id="flyout-title">â€”</div>
+                <div class="flyout-role" id="flyout-role">â€”</div>
+                <div class="flyout-items">
+                    <div class="flyout-row"><span>Trust Score</span><span id="flyout-score">â€”</span></div>
+                    <div class="flyout-row"><span>Status</span><span id="flyout-status">â€”</span></div>
+                    <div class="flyout-row"><span>Last Seen</span><span id="flyout-seen">â€”</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURE 7: DAG task board with status swimlanes -->
+        <section class="glass-panel task-panel">
+            <div class="panel-header">
+                <div>
+                    <h3>â›“ DAG Execution Queue</h3>
+                    <p class="panel-sub">Cognitive LLM subtask graph</p>
+                </div>
+                <div class="task-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="BIDDING">Bid</button>
+                    <button class="filter-btn" data-filter="EXECUTING">Run</button>
+                    <button class="filter-btn" data-filter="VERIFIED">Done</button>
+                </div>
+            </div>
+            <div id="task-explorer-list" class="task-list"></div>
+        </section>
+
+        <!-- FEATURE 8: Auction ticker feed -->
+        <section class="glass-panel ticker-panel">
+            <div class="panel-header">
+                <h3>ðŸ“¡ Live Events</h3>
+                <span class="badge-live">LIVE</span>
+            </div>
+            <div id="auction-feed" class="event-feed"></div>
+        </section>
+
+        <!-- FEATURE 9: Real-time reputation leaderboard -->
+        <section class="glass-panel leaderboard-panel">
+            <div class="panel-header">
+                <h3>ðŸ† Reputation Board</h3>
+                <p class="panel-sub">Top agents by trust score</p>
+            </div>
+            <div id="leaderboard" class="leaderboard-list"></div>
+        </section>
+
+        <!-- FEATURE 10: Hashchain proof explorer -->
+        <section class="glass-panel hashchain-panel">
+            <div class="panel-header">
+                <h3>ðŸ” Proof-of-Coordination Hashchain</h3>
+                <p class="panel-sub">Merkle-rooted immutable ledger</p>
+            </div>
+            <div id="hashchain-log" class="hashchain-log"></div>
+        </section>
+
+        <!-- FEATURE 11: Performance metrics grid with sparklines -->
+        <section class="glass-panel metrics-panel">
+            <div class="panel-header">
+                <h3>ðŸ“Š Performance Metrics</h3>
+            </div>
+            <div class="metrics-grid">
+                <div class="stat-box">
+                    <span class="stat-label">Slashes Applied</span>
+                    <span class="stat-num red" id="stat-slashes">0</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">Proofs Generated</span>
+                    <span class="stat-num green" id="stat-proofs">0</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">Replay Attacks Blocked</span>
+                    <span class="stat-num cyan" id="stat-replay">0</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">Total Events</span>
+                    <span class="stat-num gold" id="stat-total">0</span>
+                </div>
+            </div>
+            <!-- FEATURE 12: Mini TPS sparkline chart -->
+            <canvas id="tps-sparkline" height="60"></canvas>
+        </section>
+
+        <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+        <!-- PHYSICS PANELS v4.0 â€” Mathematical Science Panels     -->
+        <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+
+        <!-- Panel 14: Lyapunov Stability Monitor -->
+        <section class="glass-panel physics-panel lyapunov-panel">
+            <div class="panel-header">
+                <div>
+                    <h3>ðŸ“ Lyapunov Stability</h3>
+                    <p class="panel-sub" title="Lyapunov Function mapping the variance of agent trust scores. Ensures swarm converges to consensus (dV/dt < 0).">V(t)=Î£(sáµ¢âˆ’sÌ„)Â² Â· dV/dt  stability classifier</p>
+                </div>
+                <span class="badge-math" title="Mathematics tracking convergence rate">MATH</span>
+            </div>
+            <div class="physics-stats">
+                <div class="phys-stat">
+                    <span class="phys-label">Potential V(t)</span>
+                    <span class="phys-val" id="lyapunov-V">â€”</span>
+                </div>
+                <div class="phys-stat" title="Current Rate of Change. Negative means converging; positive means diverging.">
+                    <span class="phys-label">dV/dt</span>
+                    <span class="phys-val" id="lyapunov-dVdt">â€”</span>
+                </div>
+                <div class="phys-stat">
+                    <span class="phys-label">Status</span>
+                    <span class="phys-val" id="lyapunov-status">INIT</span>
+                </div>
+                <div class="phys-stat">
+                    <span class="phys-label">Task Entropy H</span>
+                    <span class="phys-val" id="lyapunov-H">â€”</span>
+                </div>
+            </div>
+            <div class="gauge-bar-bg"><div class="gauge-bar-fill" id="lyapunov-gauge-fill"></div></div>
+        </section>
+
+        <!-- Panel 15: Thermodynamic Entropy Monitor -->
+        <section class="glass-panel physics-panel thermo-panel">
+            <div class="panel-header">
+                <div>
+                    <h3>ðŸŒ¡ï¸ Thermodynamic Entropy</h3>
+                    <p class="panel-sub" title="Physical constraints limiting swarm output. If Task Injection (S_in) > Completion (S_out), the swarm enters Thermal Overload.">dS/dt = á¹ áµ¢â‚™ âˆ’ á¹ â‚’áµ¤â‚œ âˆ’ á¹ _overhead Â·  Heat death prediction</p>
+                </div>
+                <span class="badge-math" title="2nd Law of Thermodynamics">2ND LAW</span>
+            </div>
+            <div class="physics-stats">
+                <div class="phys-stat">
+                    <span class="phys-label">Shannon H</span>
+                    <span class="phys-val" id="entropy-H">â€”</span>
+                </div>
+                <div class="phys-stat" title="Change in Entropy. Positive means heating up; negative means cooling down.">
+                    <span class="phys-label">dS/dt</span>
+                    <span class="phys-val" id="entropy-dSdt">â€”</span>
+                </div>
+                <div class="phys-stat">
+                    <span class="phys-label">Heat Death</span>
+                    <span class="phys-val" id="entropy-heatdeath">â€”</span>
+                </div>
+            </div>
+            <canvas id="entropy-canvas" height="40" style="width:100%;margin-top:8px"></canvas>
+        </section>
+
+        <!-- Panel 16: SIR Epidemic Monitor -->
+        <section class="glass-panel physics-panel epidemic-panel">
+            <div class="panel-header">
+                <div>
+                    <h3>ðŸ¦  Hallucination Epidemic</h3>
+                    <p class="panel-sub" title="Susceptible-Infected-Recovered model tracking LLM hallucinations propagating via RAG memory.">SIR model Â· Râ‚€=Î²/Î³ Â· RAG quarantine</p>
+                </div>
+                <span class="badge-math" title="Epidemiological Physics">SIR</span>
+            </div>
+            <div class="physics-stats">
+                <div class="phys-stat">
+                    <span class="phys-label">Râ‚€</span>
+                    <span class="phys-val big" id="epidemic-R0">â€”</span>
+                </div>
+                <div class="phys-stat">
+                    <span class="phys-label">Status</span>
+                    <span class="phys-val" id="epidemic-status">â€”</span>
+                </div>
+            </div>
+            <div class="sir-bars">
+                <div class="sir-bar-row"><span>S</span><div class="sir-track"><div class="sir-fill green-fill" id="epidemic-bar-s"></div></div><span id="epidemic-count-s">0</span></div>
+                <div class="sir-bar-row"><span>I</span><div class="sir-track"><div class="sir-fill red-fill" id="epidemic-bar-i"></div></div><span id="epidemic-count-i">0</span></div>
+                <div class="sir-bar-row"><span>R</span><div class="sir-track"><div class="sir-fill cyan-fill" id="epidemic-bar-r"></div></div><span id="epidemic-count-r">0</span></div>
+            </div>
+        </section>
+
+        <!-- Panel 17: Game Theory Status -->
+        <section class="glass-panel physics-panel gametheory-panel">
+            <div class="panel-header">
+                <div>
+                    <h3>ðŸŽ² Game Theory Engine</h3>
+                    <p class="panel-sub" title="Auction settlement mechanism. Forces true-cost bidding using computed Regret and Nash Equilibria vectors.">BNE Â· VCG (DSIC) Â· Pareto-Nash Â· MWU Regret</p>
+                </div>
+                <span class="badge-math" title="Game Theory">GT</span>
+            </div>
+            <div class="gt-grid">
+                <div class="gt-item"><span class="gt-label">BNE Check</span><span class="gt-val" id="gt-bne">â€”</span></div>
+                <div class="gt-item"><span class="gt-label">VCG Rounds</span><span class="gt-val" id="gt-vcg">â€”</span></div>
+                <div class="gt-item"><span class="gt-label">PNE Rate</span><span class="gt-val" id="gt-pne">â€”</span></div>
+                <div class="gt-item"><span class="gt-label">Social Welfare</span><span class="gt-val" id="gt-welfare">â€”</span></div>
+            </div>
+        </section>
+
+        <!-- Panel 19: Fiedler / Laplacian Network Health -->
+        <section class="glass-panel physics-panel laplacian-panel">
+            <div class="panel-header">
+                <div>
+                    <h3>ðŸ•¸ï¸ Graph Laplacian</h3>
+                    <p class="panel-sub" title="Spectral graph theory measuring P2P network connectivity. A low Fiedler value predicts partition failure.">Fiedler Î»â‚‚ via power iteration Â· Ï„=1/Î»â‚‚ consensus time</p>
+                </div>
+                <span class="badge-math" title="Spectral Graph Physics">SPECTRAL</span>
+            </div>
+            <div class="physics-stats">
+                <div class="phys-stat">
+                    <span class="phys-label">Fiedler Value</span>
+                    <span class="phys-val" id="fiedler-lambda">â€”</span>
+                </div>
+                <div class="phys-stat">
+                    <span class="phys-label">Network</span>
+                    <span class="phys-val" id="fiedler-status">â€”</span>
+                </div>
+            </div>
+            <canvas id="fiedler-canvas" height="40" style="width:100%;margin-top:8px"></canvas>
+        </section>
+
+        <!-- Panel 20: Economic Velocity (Fisher MV=PT) -->
+        <section class="glass-panel physics-panel velocity-panel">
+            <div class="panel-header">
+                <div>
+                    <h3>ðŸ’° Economic Velocity</h3>
+                    <p class="panel-sub" title="The Fisher Equation of Exchange. When transaction velocity drops, Quantitative Easing is triggered.">MV=PT Â· QE stimulus when V &lt; 0.5</p>
+                </div>
+                <span class="badge-math" title="Macroeconomics">MACRO</span>
+            </div>
+            <div class="physics-stats">
+                <div class="phys-stat">
+                    <span class="phys-label">Velocity V</span>
+                    <span class="phys-val big" id="velocity-V">â€”</span>
+                </div>
+                <div class="phys-stat">
+                    <span class="phys-label">Economy</span>
+                    <span class="phys-val" id="velocity-status">â€”</span>
+                </div>
+            </div>
+            <div style="margin-top:8px">
+                <span class="badge-qe" id="velocity-qe" style="display:none">ðŸ’¸ QE ACTIVE</span>
+            </div>
+            <div class="gauge-bar-bg"><div class="gauge-bar-fill" id="velocity-gauge-fill"></div></div>
+        </section>
+
+        <!-- Panel 21: Chaos / Bifurcation Early Warning -->
+        <section class="glass-panel physics-panel chaos-panel">
+            <div class="panel-header">
+                <div>
+                    <h3>ðŸŒªï¸ Chaos / CSD Monitor</h3>
+                    <p class="panel-sub">ÏƒÂ²Ã—AR(1) Critical Slowing Down Â· Bifurcation early warning</p>
+                </div>
+                <span class="badge-math" title="Chaos Theory">CHAOS</span>
+            </div>
+            <div class="physics-stats">
+                <div class="phys-stat">
+                    <span class="phys-label">CSD Index</span>
+                    <span class="phys-val big" id="chaos-CSD">â€”</span>
+                </div>
+                <div class="phys-stat">
+                    <span class="phys-label">Warning</span>
+                    <span class="phys-val" id="chaos-warning">â€”</span>
+                </div>
+                <div class="phys-stat">
+                    <span class="phys-label">Variance</span>
+                    <span class="phys-val" id="chaos-variance">â€”</span>
+                </div>
+                <div class="phys-stat">
+                    <span class="phys-label">Autocorr</span>
+                    <span class="phys-val" id="chaos-autocorr">â€”</span>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- FEATURE 13: Toast notification system -->
+    <div id="toast-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

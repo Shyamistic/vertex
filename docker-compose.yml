@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  omni-swarm:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: omniswarm_core
+    restart: unless-stopped
+    ports:
+      - "3000:3000" # Glassmorphism Extranet UI Observer
+      - "1883:1883" # FoxMQ Mesh Interface (for external shard connections)
+    environment:
+      - NODE_ENV=production
+      # Map your specific Featherless API proxy variable (optional)
+      - FEATHERLESS_API_KEY=${FEATHERLESS_API_KEY:-} 
+    volumes:
+      - omniswarm_artifacts:/app/swarm-os/artifacts
+      - omniswarm_data:/app/swarm-os/data
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+
+volumes:
+  omniswarm_artifacts:
+    description: Persistent volume mapped for coordination hashchain files
+  omniswarm_data:
+    description: Storage container mapping Ed25519 identity generation states
