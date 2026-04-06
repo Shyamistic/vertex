@@ -44,9 +44,10 @@ npm install && npm run start
 PORT=7860 npm run cloud
 ```
 
----
-
 ![OmniSwarm v4.0 Cover](./assets/screenshots/cover.png)
+
+### OmniSwarm v4.0 — Formal Platform Specification & System Documentation
+*Powered by BFT Multi-Agent Economy & Mathematical Physics*
 
 OmniSwarm v4.0 is the world's most advanced Byzantine Fault-Tolerant, mathematically anchored operating system designed explicitly for decentralized multi-agent coordination. Built atop cutting-edge physics simulations, epidemiological modeling, and game theory mechanic integration, it eliminates the necessity for centralized orchestrators and brittle cloud hubs.
 
@@ -64,6 +65,13 @@ OmniSwarm eliminates single points of failure by routing complex computational t
 2. **Liveness via LivenessMonitoring:** The swarm self-heals in real-time. By deploying continuous mesh heartbeat polling, agents accurately track the temporal drift of their peers. If an executing Scholar node drops or crashes mid-inference, the Architect instances autonomously re-auction the orphaned subtask within a strict 8-second window.
 3. **Forensic Auditability:** Every action—ranging from a macro task decomposition to a micro-bid—is signed with Ed25519 Elliptic Curve signatures. Completing an execution trace results in a verifiable multi-signature Hashchain proof (`coordination_proof_{uuid}.json`), establishing deterministic Merkle roots without the sluggishness of distributed ledger technology.
 4. **Game Theoretic Optimization (VCG):** Bidding conforms to the Vickrey–Clarke–Groves Mechanism. Task credit settlement executes independently of centralized brokers, optimizing social welfare strictly via Pareto-Nash Equilibrium bindings.
+
+---
+
+### 1.1 Leaderless Byzantine Fault Tolerance (BFT)
+OmniSwarm implements a high-performance, leaderless P2P mesh that achieves consensus without a central sequencer.
+
+![BFT Consensus Mechanism](./assets/screenshots/bft_consensus.png)
 
 ---
 
@@ -108,6 +116,8 @@ For systemic stability, the system automatically runs the derivative proof to en
 
 $$ \frac{dV}{dt} \le 0 $$
 
+![Lyapunov Stability Mapping](./assets/screenshots/lyapunov_stability.png)
+
 *Failure State Execution: If $dV/dt > 0$ sustains for an extended period, the variance is increasing (nodes are aggressively splitting into honest and malicious actors). The swarm immediately triggers a CRITICAL alarm, isolating new queries to prevent hallucination avalanches.*
 
 ### 3.2 Thermodynamic Entropy (Systemic Work Bound)
@@ -119,6 +129,8 @@ Where:
 - $\dot{S}_{in}$ correlates to the macroscopic query injection and decomposition rate from all active Architects.
 - $\dot{S}_{out}$ defines the task settlement closure matrix (tasks successfully verified).
 - $\dot{S}_{overhead}$ accounts for BFT consensus latency, network bidding rounds, and verification slashing calculations.
+
+![Thermodynamic Entropy Flow](./assets/screenshots/thermodynamics.png)
 
 *Behavioral Threshold: If $\frac{dS}{dt} > 0$ significantly, the system flags an imminent thermal collapse (task overloading). Architect nodes immediately scale back their `MAX_ROUNDS` limits to throttle query ingestion.*
 
@@ -158,6 +170,8 @@ The Algebraic Connectivity (Fiedler Value) $\lambda_2$ ensures latency consensus
 
 $$ \tau = \frac{1}{\lambda_2} $$
 
+![Spectral Graph Theory - Fiedler Partition](./assets/screenshots/spectral_graph.png)
+
 *Network Security: If $\lambda_2$ continuously diminishes towards $0$, the UI triggers a 'PARTITIONED' alert. This implies a segment of Elite Scholars dropped from the Verifier quorum, and immediate proxy bridging must restore logic routing.*
 
 ### 3.6 Chaos & Critical Slowing Down (CSD)
@@ -182,6 +196,8 @@ The mechanism removes any incentive for agents to lie about their actual compute
 The VCG settlement computation executes as follows:
 1. Winning agent pays the "opportunity cost" induced on the system by their selection (the Clarke pivot rule). It maps out the difference had the agent never participated in the bid.
 2. The settlement triggers an Escrow Split natively: `(35% Scholar | 20% Verifier | 40% Architect | 5% Network Burn)`.
+
+![VCG Auction Dynamics](./assets/screenshots/vcg_auction.png)
 
 ### 4.2 Regret Minimization via Multiplicative Weights Update (MWU)
 Scholars who continually lose bids are designed to automatically update their logic strategies utilizing the Multiplicative Weights Update (MWU) algorithms.
@@ -343,7 +359,14 @@ This project merges practical distributed software engineering natively mapped a
 6. **Network Connectivity Bounds:** *Algebraic Connectivity of Graphs*, Fiedler (1973), computing the split-brain bounds isolated inside graph constraints evaluating offline nodes.
 
 ---
-**Build Trace Identifier:** `OmniSwarm//Tashi/26.04.2026/FINAL`  
+
+### The Future: Autonomous Mars Colonization Use-Case
+OmniSwarm v4.0 is current being prototyped for autonomous drone delivery grids on Mars, where P2P resilience and BFT coordination are critical survival constraints.
+
+![Mars Colony Drone Network](./assets/screenshots/mars_colony.png)
+
+---
+**Build Trace Identifier:** `OmniSwarm//Tashi/26.04.2026/FINAL-POLISH`  
 **License:** `MIT OSS Architecture`  
 **Deployment Platform:** `NodeJS 20 LTS | FoxMQ MQTT`
 
