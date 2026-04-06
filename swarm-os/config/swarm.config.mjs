@@ -1,3 +1,4 @@
+import 'dotenv/config';
 /**
  * OmniSwarm v4.0 Master Configuration
  * Consolidates network routing, cryptographic schemas, token economics,
@@ -54,8 +55,9 @@ export const CONFIG = {
     // Cloud Integration
     FEATHERLESS_API_KEY: process.env.FEATHERLESS_API_KEY || '',
     LLM_FALLBACK_CHAIN: [
-        'meta-llama/Llama-3.3-70B-Instruct',
         'Qwen/Qwen2.5-72B-Instruct',
-        'mistralai/Mistral-7B-Instruct-v0.3'
+        'Qwen/Qwen2.5-7B-Instruct',
+        'mistralai/Mistral-7B-Instruct-v0.3',
+        'meta-llama/Llama-3.3-70B-Instruct'
     ]
 };

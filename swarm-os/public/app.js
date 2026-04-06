@@ -13,6 +13,7 @@ let currentFilter = 'all';
 let soundEnabled = false;
 let tpsHistory = new Array(60).fill(0);
 let proofCount = 0;
+let initialHashchainPopulated = false; // FEATURE: One-time population of historical proofs
 let taskFilter = 'all';
 
 // Audio context for subtle sounds
@@ -428,7 +429,7 @@ function addProofEntry(entry) {
 }
 
 window.verifyHash = function(hash) {
-    showToast(`✓ Hash ${hash.substring(0,12)}… verified against Merkle root`, 'success');
+    showToast(`âœ“ Hash ${hash.substring(0,12)}â€¦ verified against Merkle root`, 'success');
 };
 
 // ════════════════════════════════════════════════════════════
@@ -497,6 +498,7 @@ socket.on('swarm_state', (state) => {
     animateTo('count-agents', aliveCount);
     animateTo('count-tasks',  taskList.length);
     animateTo('count-verified', verifiedCount);
+    animateTo('count-proofs', metricsData.proofs || 0); // FEATURE: Sync true proofs count
 
     // Swarm IQ (penalise for slashes and dead agents)
     const slashes = metricsData.slashes || 0;
@@ -505,7 +507,14 @@ socket.on('swarm_state', (state) => {
 
     // Metrics panel
     document.getElementById('stat-slashes').textContent = slashes;
+    document.getElementById('stat-proofs').textContent = metricsData.proofs || 0; // FEATURE: Sync true proofs count in stat panel
     animateTo('stat-total', metricsData.total_events || 0);
+
+    // One-time population of hashchain log from historical proofs if we just joined
+    if (!initialHashchainPopulated && metricsData.latest_proofs && metricsData.latest_proofs.length > 0) {
+        metricsData.latest_proofs.forEach(p => addProofEntry(p));
+        initialHashchainPopulated = true;
+    }
 
     // Update components
     updateTopology(agentsData);

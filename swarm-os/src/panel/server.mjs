@@ -43,7 +43,8 @@ const agents = new Map();
 const tasks  = new Map();
 const swarmMetrics = {
     slashes: 0, proofs: 0, replays_blocked: 0,
-    tasks_verified: 0, total_events: 0, tps_window: []
+    tasks_verified: 0, total_events: 0, tps_window: [],
+    latest_proofs: [] // Feature: Persistence for new dashboard connections
 };
 
 // ── Monitor Instances ────────────────────────────────────────
@@ -156,6 +157,15 @@ client.on('message', (topic, message) => {
             }
         } else if (topic.startsWith(CONFIG.TOPIC_PROOF)) {
             swarmMetrics.proofs++;
+            // FEATURE 10 — Store latest proofs for late-joining dashboard clients
+            swarmMetrics.latest_proofs.unshift({
+                event_type: 'proof',
+                agent_id: sender,
+                payload_hash: envelope.hmac,
+                taskId: payload.taskId,
+                proofId: payload.proofId
+            });
+            if (swarmMetrics.latest_proofs.length > 20) swarmMetrics.latest_proofs.pop();
         }
 
     } catch (e) { /* parse error */ }
