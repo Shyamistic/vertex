@@ -19,7 +19,7 @@ short_description: BFT AI Agent swarm with real-time physics dashboard
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-green)](https://nodejs.org)
 [![Tests](https://img.shields.io/badge/Tests-27%20passing-brightgreen)](#)
 
-> 🌐 **Live Dashboard:** [huggingface.co/spaces/YOUR_HF_USERNAME/omniswarm](https://huggingface.co/spaces/YOUR_HF_USERNAME/omniswarm)
+> 🌐 **Live Dashboard:** [huggingface.co/spaces/YOUR_HF_USERNAME/omniswarm](https://huggingface.co/spaces/shyamilicious/omniswarm)
 
 ---
 
