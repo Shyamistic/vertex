@@ -1,0 +1,16 @@
+{
+  "proof_id": "1a1b547c3e32b47cbe02f13aaabd781326dfd27d7ab5fbd8010f9fbf440d83b4",
+  "task_id": "88a58dcd-9a41-4ffc-a435-58e6f2f0f359",
+  "macro_query": "SUBTASK_DELEGATION",
+  "subtask_count": 1,
+  "ordered_event_log": [],
+  "signatures": [],
+  "dag_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "proof_checks": {
+    "no_double_assignment": true,
+    "deterministic_resolution": true,
+    "all_verifications_passed": true,
+    "no_replay_detected": true
+  },
+  "verification_verdict": "VALID"
+}

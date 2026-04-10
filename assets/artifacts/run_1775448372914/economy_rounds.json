@@ -1,0 +1,502 @@
+[
+  {
+    "subtask_id": "task-0",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:12.933Z",
+    "candidates": [],
+    "winner": "agent-0",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-1",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:12.941Z",
+    "candidates": [],
+    "winner": "agent-1",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-2",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:12.948Z",
+    "candidates": [],
+    "winner": "agent-2",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-3",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:12.954Z",
+    "candidates": [],
+    "winner": "agent-3",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-4",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:12.960Z",
+    "candidates": [],
+    "winner": "agent-4",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-5",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:12.968Z",
+    "candidates": [],
+    "winner": "agent-5",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-6",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:12.975Z",
+    "candidates": [],
+    "winner": "agent-6",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-7",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:12.981Z",
+    "candidates": [],
+    "winner": "agent-7",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-8",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:12.986Z",
+    "candidates": [],
+    "winner": "agent-8",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-9",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:12.990Z",
+    "candidates": [],
+    "winner": "agent-9",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-10",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:12.995Z",
+    "candidates": [],
+    "winner": "agent-10",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-11",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.000Z",
+    "candidates": [],
+    "winner": "agent-11",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-12",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.005Z",
+    "candidates": [],
+    "winner": "agent-12",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-13",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.011Z",
+    "candidates": [],
+    "winner": "agent-13",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-14",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.025Z",
+    "candidates": [],
+    "winner": "agent-14",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-15",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.031Z",
+    "candidates": [],
+    "winner": "agent-15",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-16",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.037Z",
+    "candidates": [],
+    "winner": "agent-16",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-17",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.043Z",
+    "candidates": [],
+    "winner": "agent-17",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-18",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.048Z",
+    "candidates": [],
+    "winner": "agent-18",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-19",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.053Z",
+    "candidates": [],
+    "winner": "agent-19",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-20",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.058Z",
+    "candidates": [],
+    "winner": "agent-20",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-21",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.064Z",
+    "candidates": [],
+    "winner": "agent-21",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-22",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.070Z",
+    "candidates": [],
+    "winner": "agent-22",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-23",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.075Z",
+    "candidates": [],
+    "winner": "agent-23",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-24",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.080Z",
+    "candidates": [],
+    "winner": "agent-24",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-25",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.084Z",
+    "candidates": [],
+    "winner": "agent-25",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-26",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.089Z",
+    "candidates": [],
+    "winner": "agent-26",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-27",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.093Z",
+    "candidates": [],
+    "winner": "agent-27",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-28",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.098Z",
+    "candidates": [],
+    "winner": "agent-28",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-29",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.103Z",
+    "candidates": [],
+    "winner": "agent-29",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-30",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.107Z",
+    "candidates": [],
+    "winner": "agent-30",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-31",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.112Z",
+    "candidates": [],
+    "winner": "agent-31",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-32",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.116Z",
+    "candidates": [],
+    "winner": "agent-32",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-33",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.121Z",
+    "candidates": [],
+    "winner": "agent-33",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-34",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.125Z",
+    "candidates": [],
+    "winner": "agent-34",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-35",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.129Z",
+    "candidates": [],
+    "winner": "agent-35",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-36",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.133Z",
+    "candidates": [],
+    "winner": "agent-36",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-37",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.139Z",
+    "candidates": [],
+    "winner": "agent-37",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-38",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.146Z",
+    "candidates": [],
+    "winner": "agent-38",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-39",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.151Z",
+    "candidates": [],
+    "winner": "agent-39",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-40",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.155Z",
+    "candidates": [],
+    "winner": "agent-40",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-41",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.160Z",
+    "candidates": [],
+    "winner": "agent-41",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-42",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.164Z",
+    "candidates": [],
+    "winner": "agent-42",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-43",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.168Z",
+    "candidates": [],
+    "winner": "agent-43",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-44",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.172Z",
+    "candidates": [],
+    "winner": "agent-44",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-45",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.176Z",
+    "candidates": [],
+    "winner": "agent-45",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-46",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.180Z",
+    "candidates": [],
+    "winner": "agent-46",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-47",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.184Z",
+    "candidates": [],
+    "winner": "agent-47",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-48",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.190Z",
+    "candidates": [],
+    "winner": "agent-48",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  },
+  {
+    "subtask_id": "task-49",
+    "round_number": 1,
+    "timestamp": "2026-04-06T04:06:13.194Z",
+    "candidates": [],
+    "winner": "agent-49",
+    "selection_reason": "Stress Test",
+    "budget_rejections": [],
+    "economy_score_breakdown": {}
+  }
+]

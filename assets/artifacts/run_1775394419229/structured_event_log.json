@@ -1,0 +1,13 @@
+[
+  {
+    "seq": 5,
+    "timestamp": "2026-04-05T13:06:59.283Z",
+    "event_type": "BNE_CONFIRMED",
+    "agent_id": "BNEDetector",
+    "payload_hash": "c96724b8908a1a2e9a1c75abd7f0c17682e7c3f6e8ab44cf739202a049d43d99",
+    "causal_dag_hash": "4804602b44781c06eae153bb46b037fd99267693d00370f639c082b0bbc7d17b",
+    "signature": ""
+  }
+]signature": ""
+  }
+]

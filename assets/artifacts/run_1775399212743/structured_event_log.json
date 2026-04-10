@@ -1,0 +1,13 @@
+[
+  {
+    "seq": 6,
+    "timestamp": "2026-04-05T14:26:52.773Z",
+    "event_type": "VCG_ALLOCATION",
+    "agent_id": "VCGMechanism",
+    "payload_hash": "1d82d4dfa14710cd5df6753407c7aa427fffd36ea8827e0a170ace4053a3da2b",
+    "causal_dag_hash": "a5590f4372752c734da7c3e1cf7f7f88e6f59688ff722297dcca839bb522d58b",
+    "signature": ""
+  }
+]gnature": ""
+  }
+]

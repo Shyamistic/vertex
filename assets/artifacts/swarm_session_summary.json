@@ -1,0 +1,282 @@
+{
+  "session_time": "2026-04-06T06:28:22.602Z",
+  "agents": {
+    "Elite-Architect": {
+      "id": "Elite-Architect",
+      "role": "ArchitectAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902515
+    },
+    "Verifier-Prime-2": {
+      "id": "Verifier-Prime-2",
+      "role": "VerifierAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902523
+    },
+    "Verifier-Prime-1": {
+      "id": "Verifier-Prime-1",
+      "role": "VerifierAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902519
+    },
+    "Shard-Scholar-Cluster-0": {
+      "id": "Shard-Scholar-Cluster-0",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902529
+    },
+    "Shard-Scholar-Cluster-1": {
+      "id": "Shard-Scholar-Cluster-1",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902530
+    },
+    "Elite-Scholar-4": {
+      "id": "Elite-Scholar-4",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902461
+    },
+    "Shard-Scholar-Cluster-2": {
+      "id": "Shard-Scholar-Cluster-2",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902527
+    },
+    "Elite-Scholar-1": {
+      "id": "Elite-Scholar-1",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902517
+    },
+    "Verifier-Prime-0": {
+      "id": "Verifier-Prime-0",
+      "role": "VerifierAgent",
+      "score": 10,
+      "status": "DEAD",
+      "lastSeen": 1775454810791
+    },
+    "Elite-Scholar-3": {
+      "id": "Elite-Scholar-3",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "DEAD",
+      "lastSeen": 1775454590124
+    },
+    "Shard-Scholar-Cluster-6": {
+      "id": "Shard-Scholar-Cluster-6",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902460
+    },
+    "Elite-Scholar-2": {
+      "id": "Elite-Scholar-2",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902518
+    },
+    "Shard-Scholar-Cluster-3": {
+      "id": "Shard-Scholar-Cluster-3",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902524
+    },
+    "Shard-Scholar-Cluster-4": {
+      "id": "Shard-Scholar-Cluster-4",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902463
+    },
+    "Shard-Scholar-Cluster-5": {
+      "id": "Shard-Scholar-Cluster-5",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902462
+    },
+    "Elite-Scholar-0": {
+      "id": "Elite-Scholar-0",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902516
+    },
+    "Shard-Scholar-Cluster-8": {
+      "id": "Shard-Scholar-Cluster-8",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902501
+    },
+    "Shard-Scholar-Cluster-13": {
+      "id": "Shard-Scholar-Cluster-13",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902510
+    },
+    "Shard-Scholar-Cluster-10": {
+      "id": "Shard-Scholar-Cluster-10",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902498
+    },
+    "Shard-Scholar-Cluster-11": {
+      "id": "Shard-Scholar-Cluster-11",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902464
+    },
+    "Shard-Scholar-Cluster-7": {
+      "id": "Shard-Scholar-Cluster-7",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902496
+    },
+    "Shard-Scholar-Cluster-12": {
+      "id": "Shard-Scholar-Cluster-12",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902514
+    },
+    "Shard-Scholar-Cluster-14": {
+      "id": "Shard-Scholar-Cluster-14",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902499
+    },
+    "Shard-Scholar-Cluster-9": {
+      "id": "Shard-Scholar-Cluster-9",
+      "role": "ScholarAgent",
+      "score": 10,
+      "status": "ACTIVE",
+      "lastSeen": 1775456902506
+    }
+  },
+  "tasks_total": 6,
+  "tasks_completed": 6,
+  "physics_report": {
+    "lyapunov": {
+      "latest_V": 0,
+      "latest_dVdt": 0,
+      "latest_H": 2.004886164091843,
+      "stability_status": "STABLE",
+      "rebalances_triggered": 0,
+      "history_length": 120,
+      "agent_count": 24
+    },
+    "thermodynamics": {
+      "entropy_H": "4.585",
+      "dSdt": "-2.0632",
+      "task_injection_rate": "0.000",
+      "task_completion_rate": "0.000",
+      "heat_death_imminent": false,
+      "eta_seconds": 0,
+      "warnings_fired": 0
+    },
+    "percolation": {
+      "fc_ER": "0.957",
+      "fc_SF": "0.955",
+      "f_current": "0.083",
+      "risk_ratio_ER": "0.087",
+      "risk_ratio_SF": "0.087",
+      "kappa": "23.000",
+      "mean_degree": "23.00",
+      "scale_free": {
+        "is_scale_free": false,
+        "gamma": 9.32440368885806e-31,
+        "r_squared": 3.237640169742382e-31
+      },
+      "total_agents": 24,
+      "dead_agents": 2,
+      "warnings": 7
+    },
+    "laplacian": {
+      "latest_lambda2": 22,
+      "network_status": "HIGHLY_REDUNDANT",
+      "history_length": 60,
+      "partition_warnings": 0
+    },
+    "epidemic": {
+      "S": 113,
+      "I": 0,
+      "R": 0,
+      "N": 113,
+      "beta": "0.0100",
+      "gamma": "0.5000",
+      "R0": "0.020",
+      "is_epidemic": false,
+      "quarantined_count": 0,
+      "status": "CONTAINED",
+      "emergency_responses": 0,
+      "history_length": 120
+    },
+    "chaos": {
+      "t": 1775456902458,
+      "variance": 193530094.14285713,
+      "autocorrelation": 0.23407011410967668,
+      "CSD": 45299611.21967504,
+      "bifurcation_risk": 0,
+      "warning_level": "ELEVATED",
+      "csd_warnings": 4,
+      "samples_collected": 14
+    },
+    "velocity": {
+      "V": 0,
+      "P": 0,
+      "T": 0,
+      "M": 1300,
+      "status": "LIQUIDITY_TRAP",
+      "qe_active": true,
+      "credit_multiplier": 1.1,
+      "stimulus_events": 1,
+      "burned_credits": "255.00",
+      "consecutive_low_v": 2004,
+      "history_length": 120
+    }
+  },
+  "game_theory": {
+    "bne": {
+      "bne_confirmations": 0,
+      "bne_violations": 0,
+      "bne_rate": "N/A",
+      "agents_tracked": 0
+    },
+    "vcg": {
+      "rounds_computed": 0,
+      "total_social_welfare": "0.00",
+      "avg_efficiency_ratio": "N/A",
+      "mechanism": "VCG (DSIC-guaranteed)",
+      "dsic_violations": 0
+    },
+    "pne": {
+      "pne_confirmations": 0,
+      "pne_violations": 0,
+      "pne_rate": "N/A",
+      "weights": [
+        0.3,
+        0.5,
+        0.2
+      ],
+      "rounds": 0
+    }
+  },
+  "version": "4.0.0"
+}

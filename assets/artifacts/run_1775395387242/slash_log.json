@@ -1,0 +1,16 @@
+[
+  {
+    "agent_id": "Elite-Scholar-1",
+    "verifier_id": "Verifier-Prime-0",
+    "reason": "does not provide a solution to a problem, focuses on account details and limitations rather than proposing a solution",
+    "slashes_total": 1,
+    "quarantined": false
+  },
+  {
+    "agent_id": "Elite-Scholar-1",
+    "verifier_id": "Verifier-Prime-2",
+    "reason": "CircularReasoning, LackOfIndependentEvidence",
+    "slashes_total": 2,
+    "quarantined": false
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "seq": 1,
+    "timestamp": "2026-04-05T13:24:27.559Z",
+    "event_type": "SLASH",
+    "agent_id": "Elite-Scholar-1",
+    "payload_hash": "ba3062265679d929ae7e0986a4bc03b2c7d271a73beb48ef599ad32b446d0706",
+    "causal_dag_hash": "df2ee77f34295eec48b42bee2766a7c82610875bea53acd649d21b50cb138a82",
+    "signature": ""
+  },
+  {
+    "seq": 2,
+    "timestamp": "2026-04-05T13:24:39.071Z",
+    "event_type": "SLASH",
+    "agent_id": "Elite-Scholar-1",
+    "payload_hash": "daeb80a3ae3e4d9ef63b2c65a7ddaf2a6507896b6b5061cc08b82698ab68af62",
+    "causal_dag_hash": "e3016871352b9e6c3e7299beda8ba297dedb930df68efcba65f0f69dd5c93c4e",
+    "signature": ""
+  }
+]

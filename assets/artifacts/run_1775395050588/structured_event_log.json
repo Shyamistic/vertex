@@ -1,0 +1,20 @@
+[
+  {
+    "seq": 1,
+    "timestamp": "2026-04-05T13:18:45.174Z",
+    "event_type": "SLASH",
+    "agent_id": "Shard-Scholar-Cluster-10",
+    "payload_hash": "4b5305580356274180848ee65f6de40d1dd36b0090b74053a02693dc674adbd3",
+    "causal_dag_hash": "49e8942244582ef208a97b0960d0defbb837741318cc0295037bd4f1c2a82154",
+    "signature": ""
+  },
+  {
+    "seq": 2,
+    "timestamp": "2026-04-05T13:19:15.866Z",
+    "event_type": "SLASH",
+    "agent_id": "Shard-Scholar-Cluster-10",
+    "payload_hash": "3f855152ed6d393e04044059f553839c7d9b2c053b77b2893a3766978dcfc993",
+    "causal_dag_hash": "1c60f3faebf473d2c53f9241ef5cf07704965774969912ec6abe94919c6b47b5",
+    "signature": ""
+  }
+]

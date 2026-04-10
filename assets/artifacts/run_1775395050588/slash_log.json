@@ -1,0 +1,16 @@
+[
+  {
+    "agent_id": "Shard-Scholar-Cluster-10",
+    "verifier_id": "Verifier-Prime-0",
+    "reason": "Expects user instruction or action",
+    "slashes_total": 1,
+    "quarantined": false
+  },
+  {
+    "agent_id": "Shard-Scholar-Cluster-10",
+    "verifier_id": "Verifier-Prime-2",
+    "reason": "structurally valid instructions for a heuristic scan are provided, no clear objective or objective criteria are given for evaluating the output of the heuristic scan",
+    "slashes_total": 2,
+    "quarantined": false
+  }
+]

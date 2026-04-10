@@ -1,0 +1,4079 @@
+[
+  {
+    "seq": 1,
+    "timestamp": "2026-04-06T03:32:47.818Z",
+    "event_type": "QE_STIMULUS_TRIGGERED",
+    "agent_id": "EconomicVelocityTracker",
+    "payload_hash": "5dbfc4791b2d371be2ef88d1e70b973a58bf4fc5c29f188103e4a9c2550ba3c3",
+    "causal_dag_hash": "2095bb94cba5a853e3151824aca5f60bc8b1fd6b8c232149cacf1529a212b33c",
+    "signature": ""
+  },
+  {
+    "seq": 2,
+    "timestamp": "2026-04-06T03:35:06.252Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a43795547f250ed15ea6bb2fd4ca62bbb672cf79b927cdf9fd96637778cfafdb",
+    "signature": ""
+  },
+  {
+    "seq": 3,
+    "timestamp": "2026-04-06T03:35:08.265Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "6d1672a4c83708a1c7ae5b7040682dd270aa1055984737ca6e28ce9b27223099",
+    "signature": ""
+  },
+  {
+    "seq": 4,
+    "timestamp": "2026-04-06T03:35:10.266Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "2331ada61ec0188e61075bd6a10903db988c2ec16c266147133e157fd8761cf6",
+    "signature": ""
+  },
+  {
+    "seq": 5,
+    "timestamp": "2026-04-06T03:35:12.273Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "e7f637df9363ae30919bedba00e52967e439a0e03c9bb875da240c4baeedb300",
+    "signature": ""
+  },
+  {
+    "seq": 6,
+    "timestamp": "2026-04-06T03:35:14.280Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "0ebf7fff9a7494c895399c6ac3011a09672b6a5eecdc136f105ec6c1590916b0",
+    "signature": ""
+  },
+  {
+    "seq": 7,
+    "timestamp": "2026-04-06T03:35:16.291Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "52b7b4d13432025267512021649c4bc943db13bb40ef9f9198d12fe7a732e937",
+    "signature": ""
+  },
+  {
+    "seq": 8,
+    "timestamp": "2026-04-06T03:35:18.293Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "2446d7d63a7c173334c8f24f8bf61336c57e6b21ed616dd3fa5af917218f3e82",
+    "signature": ""
+  },
+  {
+    "seq": 9,
+    "timestamp": "2026-04-06T03:35:20.302Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "5b5103f70631274308cfaec10e91a0cbadc065dd1510f286ce8fd917b61ad5cc",
+    "signature": ""
+  },
+  {
+    "seq": 10,
+    "timestamp": "2026-04-06T03:35:22.307Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "51ad5d69b12f93b2a46757c597b056ab0eb350d454b820b714c6166f54b73bf5",
+    "signature": ""
+  },
+  {
+    "seq": 11,
+    "timestamp": "2026-04-06T03:35:24.311Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "90373d43e4818df77d6bd77118d951e3aa2fbf4e0e2820fb6a4ac9572d9e8bc2",
+    "signature": ""
+  },
+  {
+    "seq": 12,
+    "timestamp": "2026-04-06T03:35:26.318Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "3ddc775bcbfc7edc833a41678f597b4512b8eac653767606e437226683985b6b",
+    "signature": ""
+  },
+  {
+    "seq": 13,
+    "timestamp": "2026-04-06T03:35:28.319Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "c8e0378d8ff0139a4bfe7b8fa0001ba25081553feba9074a707dc3397fa6cb26",
+    "signature": ""
+  },
+  {
+    "seq": 14,
+    "timestamp": "2026-04-06T03:35:30.331Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "843d4917280155e340da65ee473f8b7400db5f2cc6f3c709e9adce3744c76d2c",
+    "signature": ""
+  },
+  {
+    "seq": 15,
+    "timestamp": "2026-04-06T03:35:32.345Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "ac5f2c4583437b8759d77c0f29155200e7f204362621d45e9778c6eb20a54227",
+    "signature": ""
+  },
+  {
+    "seq": 16,
+    "timestamp": "2026-04-06T03:35:34.355Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "954a4dc76796bf1c1e78b67e03c6ce87ff1948d8cd078f6b2f08e534c2c91840",
+    "signature": ""
+  },
+  {
+    "seq": 17,
+    "timestamp": "2026-04-06T03:35:36.366Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "37c8e03914d5de18a965fda9bd1c9f217ef9b797ecb54cdb62c7fe764de4220f",
+    "signature": ""
+  },
+  {
+    "seq": 18,
+    "timestamp": "2026-04-06T03:35:38.375Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "26a7ed0767d00ae4336cf4876bfb3b3f1d7409d7b27b3626664454346d13c115",
+    "signature": ""
+  },
+  {
+    "seq": 19,
+    "timestamp": "2026-04-06T03:35:40.386Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "0c156fc4c996b6cb374e3e5f0fad07f0e6c53abe13f7847c3014539b72b3a671",
+    "signature": ""
+  },
+  {
+    "seq": 20,
+    "timestamp": "2026-04-06T03:35:42.392Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "81828d14c5888f96932a6a8dd5ffa1387d51bbd757c09b615ae0d8c9e66a5d09",
+    "signature": ""
+  },
+  {
+    "seq": 21,
+    "timestamp": "2026-04-06T03:35:44.401Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a35b12c097b94ea0908ccf78db8e260348dcd0477fef2a3b53ab7a514e3a4cf3",
+    "signature": ""
+  },
+  {
+    "seq": 22,
+    "timestamp": "2026-04-06T03:35:46.410Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "9211b4969a38d6095c424bee882f07cf774012c374cd630ec2ed1922e902f206",
+    "signature": ""
+  },
+  {
+    "seq": 23,
+    "timestamp": "2026-04-06T03:35:48.418Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "0afdb0d81692ad9e438b2a689268090343bdde1b94485a154cc7f812597ef2bd",
+    "signature": ""
+  },
+  {
+    "seq": 24,
+    "timestamp": "2026-04-06T03:35:50.425Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "311349b34f0e2d447404e69da4ebbee387fc8ac6e14e0dd922d577dfc8d48d45",
+    "signature": ""
+  },
+  {
+    "seq": 25,
+    "timestamp": "2026-04-06T03:35:52.434Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a37be24d11d76c9558ad72b1a762e36dc9a18dd8158f176892e3ffc7f5650c5d",
+    "signature": ""
+  },
+  {
+    "seq": 26,
+    "timestamp": "2026-04-06T03:35:54.441Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "7889efa48acb2cdf6a6baead2b9d7f501750ea9cd6fe739adc7ecba019202e55",
+    "signature": ""
+  },
+  {
+    "seq": 27,
+    "timestamp": "2026-04-06T03:35:56.447Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "396c9a660f4600b36756483de4b68dff55ce33301cb71f536b63537a00c7276b",
+    "signature": ""
+  },
+  {
+    "seq": 28,
+    "timestamp": "2026-04-06T03:35:58.448Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "1ce3f40666df5cf408a778ab70989766cc9fbedc069891734af982a11f53a6bc",
+    "signature": ""
+  },
+  {
+    "seq": 29,
+    "timestamp": "2026-04-06T03:36:00.457Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "2bf5edc7be4af1b427a8d7dce253ac418821b0112202e76ab778f47f30f60c32",
+    "signature": ""
+  },
+  {
+    "seq": 30,
+    "timestamp": "2026-04-06T03:36:02.465Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "15bc5f30c5ff18cb9f95d2539f66f71d646aa63465903187505fbbc827efa699",
+    "signature": ""
+  },
+  {
+    "seq": 31,
+    "timestamp": "2026-04-06T03:36:04.470Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "33a5ee8b106a27f6efc51824975ebce3e6f146d5bd59012aa99ff30db4c7d010",
+    "signature": ""
+  },
+  {
+    "seq": 32,
+    "timestamp": "2026-04-06T03:36:06.482Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "4341ff5cb4b0fad6d752700e62b0fe73d271bfe7e00b954c70312a9ba9c6381a",
+    "signature": ""
+  },
+  {
+    "seq": 33,
+    "timestamp": "2026-04-06T03:36:08.490Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d1c05bc3a58110ce49dcfd30225d98c8cddbc768f1eab2467a964fe8b35f27b1",
+    "signature": ""
+  },
+  {
+    "seq": 34,
+    "timestamp": "2026-04-06T03:36:10.497Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "983e56e7d24fd215a5bc85ebe883b093bc8246056f8037463402f9b55e95fae5",
+    "signature": ""
+  },
+  {
+    "seq": 35,
+    "timestamp": "2026-04-06T03:36:12.508Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "6d9c974aaec0eeb43be8af2cbfb042d6cc8678c57535bfe85529f594e9e67c39",
+    "signature": ""
+  },
+  {
+    "seq": 36,
+    "timestamp": "2026-04-06T03:36:14.510Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "99c6dd539d63ac51e2dafbff72cd04cb203dc4b4fba6d81cde747387bc1d4314",
+    "signature": ""
+  },
+  {
+    "seq": 37,
+    "timestamp": "2026-04-06T03:36:16.520Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "c0fd34d12328ba529cadd33cfb77839a42e00519b08fca6946f85c043c59de8d",
+    "signature": ""
+  },
+  {
+    "seq": 38,
+    "timestamp": "2026-04-06T03:36:18.527Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "46884d97d3b41d003d8ee0a94643ef57d22b923018086baa3873cb401f6cfb4e",
+    "signature": ""
+  },
+  {
+    "seq": 39,
+    "timestamp": "2026-04-06T03:36:20.537Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d26e7e6ec36aad3e260c4bbc8943bb233f2bbdfd3f1772830f0b8c1428a0b8ed",
+    "signature": ""
+  },
+  {
+    "seq": 40,
+    "timestamp": "2026-04-06T03:36:22.547Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "201e429671da185932d491be01d4ac719e1fcbd812248e0a3c83413109a37137",
+    "signature": ""
+  },
+  {
+    "seq": 41,
+    "timestamp": "2026-04-06T03:36:24.562Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "939093ea665300b6a052cfdb036ef7d549c44621d5b57a79b60a6b0d9dc37003",
+    "signature": ""
+  },
+  {
+    "seq": 42,
+    "timestamp": "2026-04-06T03:36:26.577Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "30f3ee88294f2a9630648d5c587d0e32ae8459735056a3569559bd3e8c2af77a",
+    "signature": ""
+  },
+  {
+    "seq": 43,
+    "timestamp": "2026-04-06T03:36:28.580Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "733d54cd449b17abb1ebb3dc9bc7946eb3d2dbfa852c9e531415ddf63e32cb94",
+    "signature": ""
+  },
+  {
+    "seq": 44,
+    "timestamp": "2026-04-06T03:36:30.586Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "4d471da7578fc4bc171ece22bcaf3a8ee6bc1719fd7806ba31454b683374f0c1",
+    "signature": ""
+  },
+  {
+    "seq": 45,
+    "timestamp": "2026-04-06T03:36:32.591Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "baee2f168f80640ca86d580f2bd175754da5025d15ea4ebe4def769a0952e1a5",
+    "signature": ""
+  },
+  {
+    "seq": 46,
+    "timestamp": "2026-04-06T03:36:34.605Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "b78dd873dbaf67903c2b8fbc00587642b3e5ed06bee04992183666a185244b46",
+    "signature": ""
+  },
+  {
+    "seq": 47,
+    "timestamp": "2026-04-06T03:36:36.627Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "e7258b998fb99f6bc9ba831e06dea95b8f3ab6aa17ea218082c50630eff4a0b2",
+    "signature": ""
+  },
+  {
+    "seq": 48,
+    "timestamp": "2026-04-06T03:36:38.627Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d30478c2cb7d3d2d54ccbb1ededfdd755fe0844bdaddc6071bbf93ed748e81ef",
+    "signature": ""
+  },
+  {
+    "seq": 49,
+    "timestamp": "2026-04-06T03:36:40.641Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "69c556fe5d2bedfd1e5fe7d85163146d838f3b76eedaf8cfbcfd7650f6378665",
+    "signature": ""
+  },
+  {
+    "seq": 50,
+    "timestamp": "2026-04-06T03:36:42.700Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "0d6b9c4cd89e14cc87bf003a569b450740766dd8f5b3816cd1d304cbb51c8a2d",
+    "signature": ""
+  },
+  {
+    "seq": 51,
+    "timestamp": "2026-04-06T03:36:44.699Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "51ecdc890ebdd760918b8450192b948da5d2652ce7f920404e5fa93236554ab1",
+    "signature": ""
+  },
+  {
+    "seq": 52,
+    "timestamp": "2026-04-06T03:36:46.712Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "bed4070083b8d5f073fa91a79001a4c3080e794961c516c7fa39845730d539a2",
+    "signature": ""
+  },
+  {
+    "seq": 53,
+    "timestamp": "2026-04-06T03:36:48.718Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "11fc7d69b353258a5d98bdd0411babc23375d72070450e91d48d372eb018bb67",
+    "signature": ""
+  },
+  {
+    "seq": 54,
+    "timestamp": "2026-04-06T03:36:50.730Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "2191992554a5620f1c887f8298708c00f503f744935f371fe0e768f4307e3ca6",
+    "signature": ""
+  },
+  {
+    "seq": 55,
+    "timestamp": "2026-04-06T03:36:52.739Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "29bda0c6539fd0ec94992d14904430f0248f79233fc19d13990260f5380ab553",
+    "signature": ""
+  },
+  {
+    "seq": 56,
+    "timestamp": "2026-04-06T03:36:54.741Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a91640ffa33ac64a9816b6c0d20b8ae3611e8765557ddb264d897e6b0ec138c6",
+    "signature": ""
+  },
+  {
+    "seq": 57,
+    "timestamp": "2026-04-06T03:36:56.744Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "5a2c08dfda561ea57ff531f1992d079aa0b054460c5ee9ce50d8da331c5aa064",
+    "signature": ""
+  },
+  {
+    "seq": 58,
+    "timestamp": "2026-04-06T03:36:58.755Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "29a042f44d98428c83421f1e03d8aa4071891bcc19f8f0b863889d41fee50cc7",
+    "signature": ""
+  },
+  {
+    "seq": 59,
+    "timestamp": "2026-04-06T03:37:00.764Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "170f449ec17a5cc958e401a75ee88830b17add452521ae153b2e2b6bdf18ba90",
+    "signature": ""
+  },
+  {
+    "seq": 60,
+    "timestamp": "2026-04-06T03:37:02.766Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "c871f70187094943359421907a8b5a7c3e5c7bf0931c99b42463dac3282399d7",
+    "signature": ""
+  },
+  {
+    "seq": 61,
+    "timestamp": "2026-04-06T03:37:04.779Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "3d7c96f3f5c731db3564602189374aa7f1362e0eb985fc0d3909ff15125ca67e",
+    "signature": ""
+  },
+  {
+    "seq": 62,
+    "timestamp": "2026-04-06T03:37:06.782Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "130f93a3a9af3caa0ca40634c296491291442be8ea3f5420a409202d1063db4e",
+    "signature": ""
+  },
+  {
+    "seq": 63,
+    "timestamp": "2026-04-06T03:37:08.792Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "0681521f3c2885054edf5da34b97ca51b4ca912eb443160f964c4602cb969e5b",
+    "signature": ""
+  },
+  {
+    "seq": 64,
+    "timestamp": "2026-04-06T03:37:10.794Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "986220413bf95de646f7290eb31b7d7030395b8826f2048b69737d3c68242d04",
+    "signature": ""
+  },
+  {
+    "seq": 65,
+    "timestamp": "2026-04-06T03:37:12.797Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "79a9cc8265901382b69f799bea1bfd9f8da531907b605fee18956d4eef5c12e8",
+    "signature": ""
+  },
+  {
+    "seq": 66,
+    "timestamp": "2026-04-06T03:37:14.803Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "ddd4f4241df09536c3fe8ee6c78c1af7cfda4f0314c51dc25d2d2ff69efb4197",
+    "signature": ""
+  },
+  {
+    "seq": 67,
+    "timestamp": "2026-04-06T03:37:16.810Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "893c5d3f4f2f26b58dd78debb647b7448d8715407ff388f66ab8f75568a51d1b",
+    "signature": ""
+  },
+  {
+    "seq": 68,
+    "timestamp": "2026-04-06T03:37:18.814Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "c3bc026d95016b702442aa3278a32af9123de6f990e215b16fa7125b1c1a5695",
+    "signature": ""
+  },
+  {
+    "seq": 69,
+    "timestamp": "2026-04-06T03:37:20.823Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "697cfe1a500795cb9a9e94ca53b37a37e7069c9f4a7a9b69383e36f9decc4735",
+    "signature": ""
+  },
+  {
+    "seq": 70,
+    "timestamp": "2026-04-06T03:37:22.827Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "65f436c5ee6739d909f412d71bbc912798bb5aa00c8c83ba9b946a440cbd5212",
+    "signature": ""
+  },
+  {
+    "seq": 71,
+    "timestamp": "2026-04-06T03:37:24.834Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "385d15a1bb9d76db7056a37611707ab6e17d14ddbfaef14420dbbfc77c0462d6",
+    "signature": ""
+  },
+  {
+    "seq": 72,
+    "timestamp": "2026-04-06T03:37:26.844Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "bf640a6c01853f13e4164d88b225a1db172542414faae6ac4a4e460bb4c28e10",
+    "signature": ""
+  },
+  {
+    "seq": 73,
+    "timestamp": "2026-04-06T03:37:28.848Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "b2f62a982964f2b0120a07e8bf3166b0694379432925d0af50c6df0efc014ebf",
+    "signature": ""
+  },
+  {
+    "seq": 74,
+    "timestamp": "2026-04-06T03:37:30.853Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "feb1ce5fd31550e1be3d739b2f5cf2874a70b3b785b57a45d60d685484755035",
+    "signature": ""
+  },
+  {
+    "seq": 75,
+    "timestamp": "2026-04-06T03:37:32.859Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a716d071824ae1e10e5b0ba15b94c182bfef68f38515547a87b76480f0261dd7",
+    "signature": ""
+  },
+  {
+    "seq": 76,
+    "timestamp": "2026-04-06T03:37:34.865Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "78d677a11320671e9460ee1a976c47f39df28807c237c275f8348bbd95644dd6",
+    "signature": ""
+  },
+  {
+    "seq": 77,
+    "timestamp": "2026-04-06T03:37:36.873Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "c9ba182e87731559dc05e947f39bcff85abc583c647f1971137d9b10e996c544",
+    "signature": ""
+  },
+  {
+    "seq": 78,
+    "timestamp": "2026-04-06T03:37:38.888Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "2acaa8e0c7689c25e1f5724fb94b729744be19561920754c3595d3b215050a88",
+    "signature": ""
+  },
+  {
+    "seq": 79,
+    "timestamp": "2026-04-06T03:37:40.897Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "bfd1a7301b472e027463f6c73280085663018c39e53c4ebe1f475d6bbe542891",
+    "signature": ""
+  },
+  {
+    "seq": 80,
+    "timestamp": "2026-04-06T03:37:42.901Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "532d5c4fe4359a35e14d79d403338abf4837d81a40b6d563429acf912994c1c6",
+    "signature": ""
+  },
+  {
+    "seq": 81,
+    "timestamp": "2026-04-06T03:37:44.909Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "eae00b6645db4664b4e9a28237c6249f21456e0a34bf0834c74bb0cb2f231b52",
+    "signature": ""
+  },
+  {
+    "seq": 82,
+    "timestamp": "2026-04-06T03:37:46.922Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "92012f554439ff8e4a4eadb283beb588f3bf7e1f689cfd29a032fafb1b9b2936",
+    "signature": ""
+  },
+  {
+    "seq": 83,
+    "timestamp": "2026-04-06T03:37:48.929Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "ab14526a5ebafcafb7fab8bc61b4190a965cca7466b4720a43cb5ad673ea300d",
+    "signature": ""
+  },
+  {
+    "seq": 84,
+    "timestamp": "2026-04-06T03:37:50.934Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d0beeda022763653d6e48b400ae844fbe09878174b66672a4f6335d89156bd8b",
+    "signature": ""
+  },
+  {
+    "seq": 85,
+    "timestamp": "2026-04-06T03:37:52.944Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "1ad4d0bb725499f5ae301f28409c42ea95617707e04a15317b67b899a2f64a24",
+    "signature": ""
+  },
+  {
+    "seq": 86,
+    "timestamp": "2026-04-06T03:37:54.952Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "944ceafc4caf1d636c6c64c1531a744d0ac95aeded4b0de0fc7ad52d49fd61b7",
+    "signature": ""
+  },
+  {
+    "seq": 87,
+    "timestamp": "2026-04-06T03:37:56.955Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "1c8ef1636f094b8df064c0d070374f681c7ff48ed4c89c86909187ad5b6cb4d9",
+    "signature": ""
+  },
+  {
+    "seq": 88,
+    "timestamp": "2026-04-06T03:37:58.965Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "43892406ab2bb6b221169503824d7a492dc64b22c587c3ed4fba028c33926580",
+    "signature": ""
+  },
+  {
+    "seq": 89,
+    "timestamp": "2026-04-06T03:38:00.968Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "6be214573f2bac902f63e73ce80ba63d25bbd20fef6f576f2c055e9090c94326",
+    "signature": ""
+  },
+  {
+    "seq": 90,
+    "timestamp": "2026-04-06T03:38:02.977Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "3b11422435ac5aa6d3d67f47441fa65edbce2a9c01ade5bbe34e74049a02ae64",
+    "signature": ""
+  },
+  {
+    "seq": 91,
+    "timestamp": "2026-04-06T03:38:04.981Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d3778f7b0e2e995beb4ab7d1f5bc34868117bf7d2066ba481e5258a35f0eb63c",
+    "signature": ""
+  },
+  {
+    "seq": 92,
+    "timestamp": "2026-04-06T03:38:06.988Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "09c0544a1ef933581976d89bf4c9250584df07a33e28152ec1c70cdb3b1ecf2d",
+    "signature": ""
+  },
+  {
+    "seq": 93,
+    "timestamp": "2026-04-06T03:38:08.988Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "caab97ed3fa3cae3b68ea371faab948bc641776e2cc37b4372053aa984c2a7b9",
+    "signature": ""
+  },
+  {
+    "seq": 94,
+    "timestamp": "2026-04-06T03:38:10.992Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "13a1d1383db6e0f6cd85e62d9cfa0fd0642c3cd399a562abf145a4218cce413d",
+    "signature": ""
+  },
+  {
+    "seq": 95,
+    "timestamp": "2026-04-06T03:38:13.001Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "923545ca15b82161f50d0a498e8e38e1a4005421a2473ddff825c72d7fe663d9",
+    "signature": ""
+  },
+  {
+    "seq": 96,
+    "timestamp": "2026-04-06T03:38:15.007Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d10347b5bbacae9905fb0f48dfdaedc008d642a7ff0fd8211296af72828ab52a",
+    "signature": ""
+  },
+  {
+    "seq": 97,
+    "timestamp": "2026-04-06T03:38:17.008Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "e93591944a08ec7f549f8a4699963f3e966ddd33a978a0d9b9ebe889d1ec0beb",
+    "signature": ""
+  },
+  {
+    "seq": 98,
+    "timestamp": "2026-04-06T03:38:19.013Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "f0726284eaae40d06806385395cc3f008204f75e8f16a0da15f3b5585149cf7f",
+    "signature": ""
+  },
+  {
+    "seq": 99,
+    "timestamp": "2026-04-06T03:38:21.018Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "58e0e055b1b4d62f3f12e7b5e007b7e1c67a5750489878608e82d8abcaaa8130",
+    "signature": ""
+  },
+  {
+    "seq": 100,
+    "timestamp": "2026-04-06T03:38:23.027Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "c5089a859bae6b6ad9b68e6edff6463ab9c8744930599be176478cf9629dd189",
+    "signature": ""
+  },
+  {
+    "seq": 101,
+    "timestamp": "2026-04-06T03:38:25.033Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d3970c1b259b98aa17a39f5a14c3825957e43fe4267b4235fc34d1f87a333065",
+    "signature": ""
+  },
+  {
+    "seq": 102,
+    "timestamp": "2026-04-06T03:38:27.039Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "34295c0ed81c859bd0b87562b34dd7ad1f63f427d3a173218556726d8d88811b",
+    "signature": ""
+  },
+  {
+    "seq": 103,
+    "timestamp": "2026-04-06T03:38:29.040Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "61f35e6470968205c62966bf205274cddcd2602d66408ae0f895f0cbd393981b",
+    "signature": ""
+  },
+  {
+    "seq": 104,
+    "timestamp": "2026-04-06T03:38:31.042Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "7fc8cec03f5c9020367af2f8991c5ee9bc6283107f6ffa4a7439f985881eb12b",
+    "signature": ""
+  },
+  {
+    "seq": 105,
+    "timestamp": "2026-04-06T03:38:33.056Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "e56dfa524e2f5d542e0cfa3be0dea7d7869d199c550e3850452705471e0e1289",
+    "signature": ""
+  },
+  {
+    "seq": 106,
+    "timestamp": "2026-04-06T03:38:35.064Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "dec25e769c826f869ad5bf20dc9cc79d4a48853f0a2580493491d99ec008b87f",
+    "signature": ""
+  },
+  {
+    "seq": 107,
+    "timestamp": "2026-04-06T03:38:37.071Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "6799501ee7ba5b0e95696fb49257d4f28d0d0dafbf0a8f3c8b7b249ca3ac3153",
+    "signature": ""
+  },
+  {
+    "seq": 108,
+    "timestamp": "2026-04-06T03:38:39.077Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d6128f9375b8b9017a377759cf23ecc36949fe1e6ba68f928b066c2e568a6b14",
+    "signature": ""
+  },
+  {
+    "seq": 109,
+    "timestamp": "2026-04-06T03:38:41.084Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "54d95036c9f06aa5979ec4ae59acdc45e66a15f8d73589e77b2a751897b07b7b",
+    "signature": ""
+  },
+  {
+    "seq": 110,
+    "timestamp": "2026-04-06T03:38:43.091Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "1588492f788912aa290196cc9b12422b93ff77f5789ca303e7dffe19d195b125",
+    "signature": ""
+  },
+  {
+    "seq": 111,
+    "timestamp": "2026-04-06T03:38:45.097Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "2df12eda03996a08986c148cf1bbde85891ebccd59b3287d93ff2655e67b0725",
+    "signature": ""
+  },
+  {
+    "seq": 112,
+    "timestamp": "2026-04-06T03:38:47.101Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "c6f65be746705b11371333957986e6653df588649b221ed2e17aa89c7f3ec057",
+    "signature": ""
+  },
+  {
+    "seq": 113,
+    "timestamp": "2026-04-06T03:38:49.110Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "aa100f5cbda76b7e7d848d89f07beba8c9fb5a423a23e0d1888c94a90ade4848",
+    "signature": ""
+  },
+  {
+    "seq": 114,
+    "timestamp": "2026-04-06T03:38:51.112Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "abfe3ef56d7c0e8ee46f69504a9e1bd821bc45f23c9a3b4fd939854caf321eb0",
+    "signature": ""
+  },
+  {
+    "seq": 115,
+    "timestamp": "2026-04-06T03:38:53.121Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "1f6dd5fb359103310218c6f4c302ff88ed554f9ea71a1c2082f2e87ee5542a6d",
+    "signature": ""
+  },
+  {
+    "seq": 116,
+    "timestamp": "2026-04-06T03:38:55.124Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "e7dfeb6b2ad50342abbc1cb10f18ea764b3129bd324d7e0789291e888139e62c",
+    "signature": ""
+  },
+  {
+    "seq": 117,
+    "timestamp": "2026-04-06T03:38:57.132Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "6627ca7c787b32504f45abb525bde71b7d85cefcf62c5c96ef3677320614e1e9",
+    "signature": ""
+  },
+  {
+    "seq": 118,
+    "timestamp": "2026-04-06T03:38:59.137Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "88f096f505f310d80af4e8bfef05f92ce14703c652b45a0cf9e519b2c19646f6",
+    "signature": ""
+  },
+  {
+    "seq": 119,
+    "timestamp": "2026-04-06T03:39:01.146Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "dcdc8353400c8083a8c5aaa963908f684adeba4ce9d821c8df2fb68e643b2f76",
+    "signature": ""
+  },
+  {
+    "seq": 120,
+    "timestamp": "2026-04-06T03:39:03.157Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d5e304c408402fcd438776700b18106bb0b692101dc68ea659e7729b7ae09bd8",
+    "signature": ""
+  },
+  {
+    "seq": 121,
+    "timestamp": "2026-04-06T03:39:05.164Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "22e43b319964d3926850c48ab5f0f6209e4aa1d7ec7ae258986863f711b66773",
+    "signature": ""
+  },
+  {
+    "seq": 122,
+    "timestamp": "2026-04-06T03:39:07.176Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "2c8793589e011bad3d6375647bf4503f630e416c26be899d63893f9a36ae47f5",
+    "signature": ""
+  },
+  {
+    "seq": 123,
+    "timestamp": "2026-04-06T03:39:09.184Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "ff1371e9a61e51ffad2e20ba2016b8f37bb8044ed1cb40a13038a0cba8696a72",
+    "signature": ""
+  },
+  {
+    "seq": 124,
+    "timestamp": "2026-04-06T03:39:11.189Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "ff3479145b9325a4803dbd27bd1c1a279b650909e1e8dd2a16c3a49bdbc88671",
+    "signature": ""
+  },
+  {
+    "seq": 125,
+    "timestamp": "2026-04-06T03:39:13.194Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "6e6af9da0bff0d43a0ffe274540cc51821bd0909f2412c78c4fbf291451f3182",
+    "signature": ""
+  },
+  {
+    "seq": 126,
+    "timestamp": "2026-04-06T03:39:15.205Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "122d73208566238a858b96e20588f4c1e6b300c0ad4c4714ad99fb672ef235b7",
+    "signature": ""
+  },
+  {
+    "seq": 127,
+    "timestamp": "2026-04-06T03:39:17.218Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "3ea23b06ae10bd5d79aaa9269c601a6a24de3f8d6a4268de8d18aec6dd193423",
+    "signature": ""
+  },
+  {
+    "seq": 128,
+    "timestamp": "2026-04-06T03:39:19.225Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "315c9ab1f94f4a8b7a9499dc23d446d36720e24043ae7853ebe895717998a05b",
+    "signature": ""
+  },
+  {
+    "seq": 129,
+    "timestamp": "2026-04-06T03:39:21.231Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "daf1a2f9c089afd2b28adeb6a8d925e57020aa216174986dd5a0c552d1c2cde5",
+    "signature": ""
+  },
+  {
+    "seq": 130,
+    "timestamp": "2026-04-06T03:39:23.234Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "c9e5cdcd147051f289833028725c1482a0a61ba9dbfe679f1d9da71898fd8b93",
+    "signature": ""
+  },
+  {
+    "seq": 131,
+    "timestamp": "2026-04-06T03:39:25.242Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a2c7fa30f79b24e1fb2ecf796811fd4f292d3992968ec337d448b96160f7efa2",
+    "signature": ""
+  },
+  {
+    "seq": 132,
+    "timestamp": "2026-04-06T03:39:27.255Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "ae63334c7b074ba97d6f1ace4e8fa06399c92ff9e846f97ffa4bf06024a55dfe",
+    "signature": ""
+  },
+  {
+    "seq": 133,
+    "timestamp": "2026-04-06T03:39:29.266Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "2332fc1cf211443d49bde06c93f7d8d43db3a86dd7a03524f8fd71e1c6c7f74e",
+    "signature": ""
+  },
+  {
+    "seq": 134,
+    "timestamp": "2026-04-06T03:39:31.272Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "bf1765184d7b5a876c5871e35cca0f238fab97034e48332ff9e97a41b6e18904",
+    "signature": ""
+  },
+  {
+    "seq": 135,
+    "timestamp": "2026-04-06T03:39:33.279Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "e7d20d3a29f0ae4c0df40bf98a80663d251667b002404a72948f7f7336aa4ad7",
+    "signature": ""
+  },
+  {
+    "seq": 136,
+    "timestamp": "2026-04-06T03:39:35.287Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "9f2ef41af613810461e17c2dc4d174c866a9bda9c966dd60a0c8c82c49f2d2cf",
+    "signature": ""
+  },
+  {
+    "seq": 137,
+    "timestamp": "2026-04-06T03:39:37.292Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "86a914bfa118333dbc05dbec84888cb24685095673d01a1ccb6ef15e0586a877",
+    "signature": ""
+  },
+  {
+    "seq": 138,
+    "timestamp": "2026-04-06T03:39:39.301Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "5f4470a626c9751f92338b9791c91badeb94369159901884f1502d16dc5e0aff",
+    "signature": ""
+  },
+  {
+    "seq": 139,
+    "timestamp": "2026-04-06T03:39:41.305Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "994c2f570279b420ff5ac5c399b145c46f125c3ce45ee93648a01c1ea56d798b",
+    "signature": ""
+  },
+  {
+    "seq": 140,
+    "timestamp": "2026-04-06T03:39:43.306Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "4aa6082373a0a2e5f670233bd3374b16c39cb6899725c04ba49c9ca9435d0faa",
+    "signature": ""
+  },
+  {
+    "seq": 141,
+    "timestamp": "2026-04-06T03:39:45.314Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "f8dc420c53f30abf659dcac3e4c075bac94e0bd2d99995ee80e32d8d456d2bc0",
+    "signature": ""
+  },
+  {
+    "seq": 142,
+    "timestamp": "2026-04-06T03:39:47.323Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "f51b5ad7aebe734842f4dce4c23532c88bfa227281c456712e363396b7e3a206",
+    "signature": ""
+  },
+  {
+    "seq": 143,
+    "timestamp": "2026-04-06T03:39:49.327Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "38d6ff85ecf47544e993608d57b7ab994b53849e8ccdf7c66feb98f60004e7f0",
+    "signature": ""
+  },
+  {
+    "seq": 144,
+    "timestamp": "2026-04-06T03:39:51.332Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "04cb83a6c1175f0ed0ba0ca63ad1d822e31f0d54300a1fa79c2554fd00bf1868",
+    "signature": ""
+  },
+  {
+    "seq": 145,
+    "timestamp": "2026-04-06T03:39:53.346Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "66e520e0fb21372d5946cf9be7f6f6bd85eae5a2b66aecbfd32ea9cd82315136",
+    "signature": ""
+  },
+  {
+    "seq": 146,
+    "timestamp": "2026-04-06T03:39:55.355Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "c7a99baaef918100db7f3d17bcfbbb3db21a796b59d63494a5a520694ee232ed",
+    "signature": ""
+  },
+  {
+    "seq": 147,
+    "timestamp": "2026-04-06T03:39:57.361Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "791107a02b7d11305caf85218764910ccd23490ceaac8fee92aba2d2eaf45719",
+    "signature": ""
+  },
+  {
+    "seq": 148,
+    "timestamp": "2026-04-06T03:39:59.373Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "1022a7a89ed18adb7e52106eaf3e863e6d3da7a117d7fbf9ee4d43b3dd29aa1a",
+    "signature": ""
+  },
+  {
+    "seq": 149,
+    "timestamp": "2026-04-06T03:40:01.373Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "9738ecba7117e5230cf026f822ff9e7de4f29b9c51be5b7b4ce72fb4be3e485b",
+    "signature": ""
+  },
+  {
+    "seq": 150,
+    "timestamp": "2026-04-06T03:40:03.374Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "e99d432f7bc64467e7430914994e743f12791369b8d8adec20c531ca71c73e73",
+    "signature": ""
+  },
+  {
+    "seq": 151,
+    "timestamp": "2026-04-06T03:40:05.387Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "7a9eb49ad2aa49c1265579b226b152f80d31ee32f0d3d11805430011b9f21243",
+    "signature": ""
+  },
+  {
+    "seq": 152,
+    "timestamp": "2026-04-06T03:40:07.391Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a80a01a62ddb56cd8aab421b8e8bbc54d36e0b08757accac4e25255d0f5cdc4f",
+    "signature": ""
+  },
+  {
+    "seq": 153,
+    "timestamp": "2026-04-06T03:40:09.398Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "706d8aa656e0f09158c626a8c6e4505bdf015ff6e9fe7e44a2a62141cd42ab00",
+    "signature": ""
+  },
+  {
+    "seq": 154,
+    "timestamp": "2026-04-06T03:40:11.405Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "b3db5a99e7a070c70cca8d0417df829bed782071420cf4191e19ab09467efa3e",
+    "signature": ""
+  },
+  {
+    "seq": 155,
+    "timestamp": "2026-04-06T03:40:13.410Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "bfe396dfd382011771fd93483a332f8b1a64da4cead69818ada0d6c95cba76a6",
+    "signature": ""
+  },
+  {
+    "seq": 156,
+    "timestamp": "2026-04-06T03:40:15.413Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "781411e2ff85f381f78f4d972161e0e609345a57f2c053ec3f667bec8018947e",
+    "signature": ""
+  },
+  {
+    "seq": 157,
+    "timestamp": "2026-04-06T03:40:17.416Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "21003706b85cc7f2cca369660258ad01e0896cd3c18c539beb4dd030abb02650",
+    "signature": ""
+  },
+  {
+    "seq": 158,
+    "timestamp": "2026-04-06T03:40:19.419Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "eabc2195bc5ed1a0e50897eee06ff4acf8ec7464fe8fb24a957ebe11c7ac3bb6",
+    "signature": ""
+  },
+  {
+    "seq": 159,
+    "timestamp": "2026-04-06T03:40:21.429Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a0f5c86a14f796ccb67ab16e917eca4ba264fa975bb3f7aa1313ad7fd251a69b",
+    "signature": ""
+  },
+  {
+    "seq": 160,
+    "timestamp": "2026-04-06T03:40:23.436Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "cb133f83daff0ecbc4dfe31430eb1947ca93b942abca9f2dcd8dc085e2a8d66a",
+    "signature": ""
+  },
+  {
+    "seq": 161,
+    "timestamp": "2026-04-06T03:40:25.439Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d10ca25ce204c23f3fce8a6910f3f35dc146f70ffefab23d41da32ed9f65b6fd",
+    "signature": ""
+  },
+  {
+    "seq": 162,
+    "timestamp": "2026-04-06T03:40:27.446Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "06ab8c0ec2e559daa56bf800d55565725878447d9b315b6d73f2265c9cc625a0",
+    "signature": ""
+  },
+  {
+    "seq": 163,
+    "timestamp": "2026-04-06T03:40:29.455Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "f878d03e4baeb52790f6a44fada9ee60de7a2ca1e8a16b2b00fae9c8d078c443",
+    "signature": ""
+  },
+  {
+    "seq": 164,
+    "timestamp": "2026-04-06T03:40:31.458Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "977978f0f2f790f3b094a55b2f26f98980e542f4bbee5fe3fd4bff4f6873a94d",
+    "signature": ""
+  },
+  {
+    "seq": 165,
+    "timestamp": "2026-04-06T03:40:33.466Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "aa1bb1c05c88d2697dad19d60c5d7e7efd929583e0605897302f07f03285f637",
+    "signature": ""
+  },
+  {
+    "seq": 166,
+    "timestamp": "2026-04-06T03:40:35.477Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "234193f92c551860209e7324f51b57d63633b621eab9826ec6411344ef5cd70d",
+    "signature": ""
+  },
+  {
+    "seq": 167,
+    "timestamp": "2026-04-06T03:40:37.488Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "fb71dea0539a9c1fb544275034274e14a1f8a99c2e1b89cae10a5e5cae49861c",
+    "signature": ""
+  },
+  {
+    "seq": 168,
+    "timestamp": "2026-04-06T03:40:39.494Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a6d082fb0ee0bbbe10cf4322494f38c2d7cb7e1354311fa4ed9f7395be3e4717",
+    "signature": ""
+  },
+  {
+    "seq": 169,
+    "timestamp": "2026-04-06T03:40:41.501Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "e05a3f4300ab819efbf6b4970fca3dd43d834bad941e4cbf99d367e83acb28b8",
+    "signature": ""
+  },
+  {
+    "seq": 170,
+    "timestamp": "2026-04-06T03:40:43.501Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "54206d334123c52f2087ff1195c08a215311bb17f903df0686738f24e0329fc8",
+    "signature": ""
+  },
+  {
+    "seq": 171,
+    "timestamp": "2026-04-06T03:40:45.509Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "dda45bfea88d3a49f1e252a22c7eb55f3493932b67bd23eb3eb6db9af177ff3d",
+    "signature": ""
+  },
+  {
+    "seq": 172,
+    "timestamp": "2026-04-06T03:40:47.516Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "595d984be5a695d13238dde9406a602a45dee7f4932340559bdf097da6a65560",
+    "signature": ""
+  },
+  {
+    "seq": 173,
+    "timestamp": "2026-04-06T03:40:49.523Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "157f367e1ca8d9a96b67f01b20f75d1e2dc3f995da084f743a7665c0b241a315",
+    "signature": ""
+  },
+  {
+    "seq": 174,
+    "timestamp": "2026-04-06T03:40:51.527Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "115805772f55a4f99889dc3424b0f207e644e4efac12204a4d40b9066148a52b",
+    "signature": ""
+  },
+  {
+    "seq": 175,
+    "timestamp": "2026-04-06T03:40:53.530Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "94e47b745bb4aa43f626405d5474f0694f6d0ce28b68ff526e99d900623235a6",
+    "signature": ""
+  },
+  {
+    "seq": 176,
+    "timestamp": "2026-04-06T03:40:55.535Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "825ded2e1bf47f043c8ab818def403961b9e1cb0f3ad140d35ca5ec4cbc6dbad",
+    "signature": ""
+  },
+  {
+    "seq": 177,
+    "timestamp": "2026-04-06T03:40:57.544Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "982812f27a6edc0306be4661c17891578e55376d5871490404b70c1fced78f8e",
+    "signature": ""
+  },
+  {
+    "seq": 178,
+    "timestamp": "2026-04-06T03:40:59.551Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "b7e5379ac1f27e32f51e7106d8f53bf66fb85bd7b4854d90b4e680aa632da18d",
+    "signature": ""
+  },
+  {
+    "seq": 179,
+    "timestamp": "2026-04-06T03:41:01.564Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "259c7b18c4d9b56c8dc9d24b86e2ebbc674e9a287f78aee58cd364ca7ae015da",
+    "signature": ""
+  },
+  {
+    "seq": 180,
+    "timestamp": "2026-04-06T03:41:03.569Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "6a01bac6f88509ad274929c77cb12d64935d448547221fdc15ecb0d4a65e650b",
+    "signature": ""
+  },
+  {
+    "seq": 181,
+    "timestamp": "2026-04-06T03:41:05.573Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "0369bdcfc8de9d1f0dfe75dff500111214eb49142b3493775b186071bda821f2",
+    "signature": ""
+  },
+  {
+    "seq": 182,
+    "timestamp": "2026-04-06T03:41:07.581Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "6bd65d6d3038d5dde4dd687610632b69a20292f6702892a4fb31ed7c4ffe242a",
+    "signature": ""
+  },
+  {
+    "seq": 183,
+    "timestamp": "2026-04-06T03:41:09.589Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "40a92db161645b4c26ed20253dff262940c6bcd2589f54bea0dd010f6af0e478",
+    "signature": ""
+  },
+  {
+    "seq": 184,
+    "timestamp": "2026-04-06T03:41:11.603Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "b7c854714102522e4bbe8b0cc5302be4584103149c8287e34bf647728178f2b8",
+    "signature": ""
+  },
+  {
+    "seq": 185,
+    "timestamp": "2026-04-06T03:41:13.611Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "7a526575054edf7746a27c2a5831efd4941bcac154a0a19cb77b6ac8a94d67a5",
+    "signature": ""
+  },
+  {
+    "seq": 186,
+    "timestamp": "2026-04-06T03:41:15.618Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a7fd88c9c4fe554b95cfefc1762742cbd5a93fac81a86b0d879d9cee752b8ce0",
+    "signature": ""
+  },
+  {
+    "seq": 187,
+    "timestamp": "2026-04-06T03:41:17.629Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "ceea471500fc9aee9b972adedf078b449ea2d63763cb9b143552ecfd7a959fe8",
+    "signature": ""
+  },
+  {
+    "seq": 188,
+    "timestamp": "2026-04-06T03:41:19.632Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d8eb06dd98aebcc0c706ed5d379efba7f0277c0a6cfeff39476a19f003126a2d",
+    "signature": ""
+  },
+  {
+    "seq": 189,
+    "timestamp": "2026-04-06T03:41:21.645Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "9bbe64fc91eed05346ff789dcbd20fe22eadb2cf7184ff13c4ac48b5e8ff575f",
+    "signature": ""
+  },
+  {
+    "seq": 190,
+    "timestamp": "2026-04-06T03:41:23.645Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a713c8cd3e90c0ed1823fbcd0b53a1a554ee1b11e90c231ddc83038cf4b7dbbe",
+    "signature": ""
+  },
+  {
+    "seq": 191,
+    "timestamp": "2026-04-06T03:41:25.658Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "5ab34088cbdbe21a884c4d82a07359fea0588bc1c685e1fe3b714052acf0de16",
+    "signature": ""
+  },
+  {
+    "seq": 192,
+    "timestamp": "2026-04-06T03:41:27.660Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "75e3752cca673ec0a912d777a08d519b96d7851cce0fe5a56e300c2bbc29a29a",
+    "signature": ""
+  },
+  {
+    "seq": 193,
+    "timestamp": "2026-04-06T03:41:29.665Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "77f2397ff99646617df64d52f0f721b6fdb2da93e7d5143f84b4c3880a37ccdf",
+    "signature": ""
+  },
+  {
+    "seq": 194,
+    "timestamp": "2026-04-06T03:41:31.666Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "291ff8d79e052a21611da3e12f42d73ea2ab5467739187530860db3a9261b47a",
+    "signature": ""
+  },
+  {
+    "seq": 195,
+    "timestamp": "2026-04-06T03:41:33.672Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "87d1625efd52c14183c181a67db2a17116dd597bdc9f9d222fd4f775aaa54d07",
+    "signature": ""
+  },
+  {
+    "seq": 196,
+    "timestamp": "2026-04-06T03:41:35.684Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "dffd17c8d3c0b15b8550b7abec26efd59dbec34c8e5e0de01bc3e1b3ffcd74d2",
+    "signature": ""
+  },
+  {
+    "seq": 197,
+    "timestamp": "2026-04-06T03:41:37.694Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "b0ecd41d12289f361bae290659d6794610bb8311046bbd84fa8e388486e782fb",
+    "signature": ""
+  },
+  {
+    "seq": 198,
+    "timestamp": "2026-04-06T03:41:39.698Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "39748500eee8bf1572d27903dce5618677b9e8a59923e416b30ebaf37ece77ef",
+    "signature": ""
+  },
+  {
+    "seq": 199,
+    "timestamp": "2026-04-06T03:41:41.708Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "5111a0800dcb90f29ee963fade51e2d972f49fa1a48e55c58a2609cae316cc7b",
+    "signature": ""
+  },
+  {
+    "seq": 200,
+    "timestamp": "2026-04-06T03:41:43.711Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a94c58f204085954eb4edffa45131113b399c33a811a3af9994b51dd61e86dc3",
+    "signature": ""
+  },
+  {
+    "seq": 201,
+    "timestamp": "2026-04-06T03:41:45.718Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "ae7fa21b6dcc62ccf48633df0cc0d9e65523a150f439e40e763967c5e3fe8f4a",
+    "signature": ""
+  },
+  {
+    "seq": 202,
+    "timestamp": "2026-04-06T03:41:47.722Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "283366c2127264df565f06693689c16bd14c9a10928190a2c7e57836530b9fba",
+    "signature": ""
+  },
+  {
+    "seq": 203,
+    "timestamp": "2026-04-06T03:41:49.725Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "608a340e3f3826a86d28b38bfff444ece9607ce2d6e6bc2174010ace9a7afe65",
+    "signature": ""
+  },
+  {
+    "seq": 204,
+    "timestamp": "2026-04-06T03:41:51.738Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "b347e08f88990c72222626fe2e5dff554b9aa1debd2edbe8bf227c853b470528",
+    "signature": ""
+  },
+  {
+    "seq": 205,
+    "timestamp": "2026-04-06T03:41:53.741Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "076c8c610a91aee47b7036966509f29f712493eab4876f3c9f5e60592a1c70d8",
+    "signature": ""
+  },
+  {
+    "seq": 206,
+    "timestamp": "2026-04-06T03:41:55.750Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "4172a273401a6d4ccc6db77fe44be385424400a68d90781c8a2b6f7bb14a7fa6",
+    "signature": ""
+  },
+  {
+    "seq": 207,
+    "timestamp": "2026-04-06T03:41:57.749Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "fdb47f11243d1bf6209750cffdf8e4ee9515c1822aec19c925803109b99145ab",
+    "signature": ""
+  },
+  {
+    "seq": 208,
+    "timestamp": "2026-04-06T03:41:59.759Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "494f23101fff5c8da7f6fbcbbb9fe101a5575d910338ac57d083202979e141c4",
+    "signature": ""
+  },
+  {
+    "seq": 209,
+    "timestamp": "2026-04-06T03:42:01.770Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "54b85f3c09570a12cdc957adfb6aa4bb28c35b391f011ada7e2ae9bca6797616",
+    "signature": ""
+  },
+  {
+    "seq": 210,
+    "timestamp": "2026-04-06T03:42:03.779Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "42bfc5cb5fd3063d3491ac7f27dc2882783653f05feb2f8b7c10fa9daec980f4",
+    "signature": ""
+  },
+  {
+    "seq": 211,
+    "timestamp": "2026-04-06T03:42:05.782Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "e4f6788eb79c71cc29a73714c3010a1faf14778f64774c0173fda9661223fde8",
+    "signature": ""
+  },
+  {
+    "seq": 212,
+    "timestamp": "2026-04-06T03:42:07.794Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "642b3a2bed97604abb4a1a63d9a9ca3b8c7cf61533235a7daafa8951a3c62b5c",
+    "signature": ""
+  },
+  {
+    "seq": 213,
+    "timestamp": "2026-04-06T03:42:09.802Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "34372e1f27827b328fd39a478ff7facff8eef8ffa4092b892d66daa3d46c7cba",
+    "signature": ""
+  },
+  {
+    "seq": 214,
+    "timestamp": "2026-04-06T03:42:11.804Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "df77bd3e96bf95d92cb9c8bc85abd1eb679b138462e789081c8834742fcf47c8",
+    "signature": ""
+  },
+  {
+    "seq": 215,
+    "timestamp": "2026-04-06T03:42:13.816Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d31f1acfd9081ee22ee1d6cef8bf234f864d0e86c57bf7c453b6ffe997e15c13",
+    "signature": ""
+  },
+  {
+    "seq": 216,
+    "timestamp": "2026-04-06T03:42:15.828Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d16b57745cd929f203f276152d94fc241f686513e0cf97032c53b51d2ab0977e",
+    "signature": ""
+  },
+  {
+    "seq": 217,
+    "timestamp": "2026-04-06T03:42:17.843Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "7b44c3ee1154f0edcd7c87df39428797b03e9bf45b50cef75ace0951ffc66575",
+    "signature": ""
+  },
+  {
+    "seq": 218,
+    "timestamp": "2026-04-06T03:42:19.856Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d305d7c3ca78338b09322f51f9b73d5a6aa08ed304a89efef09770ecd8913ea7",
+    "signature": ""
+  },
+  {
+    "seq": 219,
+    "timestamp": "2026-04-06T03:42:21.863Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a0117f1c0577a90457576eedeb3895c91b8ac9494d92e574c2de9f043f577013",
+    "signature": ""
+  },
+  {
+    "seq": 220,
+    "timestamp": "2026-04-06T03:42:23.874Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "12a18a0b88d3918e3b064fd32fb35fe8072c99e965ea38fa61b5e8763f3875f3",
+    "signature": ""
+  },
+  {
+    "seq": 221,
+    "timestamp": "2026-04-06T03:42:25.876Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d1f325b571d7a60e1d9f4675183ac381f532cd7bcca9ea02bb134eba485e9797",
+    "signature": ""
+  },
+  {
+    "seq": 222,
+    "timestamp": "2026-04-06T03:42:27.881Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "bdb552199c4927a5cf35fe8a9ea6636adc38dbd1679cda363c1c6c86f18737b3",
+    "signature": ""
+  },
+  {
+    "seq": 223,
+    "timestamp": "2026-04-06T03:42:29.882Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "00a666416992aa9d2f1e655b194a08ed2e173402cedf1b13b10f2d1185d69571",
+    "signature": ""
+  },
+  {
+    "seq": 224,
+    "timestamp": "2026-04-06T03:42:31.884Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "50d1b19699a4a6a4473034307f89976d23c6649335f29c83b00d346df612d72d",
+    "signature": ""
+  },
+  {
+    "seq": 225,
+    "timestamp": "2026-04-06T03:42:33.889Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "558a7adc1e6a68b1f191e5c5434e6591eb944df7adbea55a506ffc9089091e29",
+    "signature": ""
+  },
+  {
+    "seq": 226,
+    "timestamp": "2026-04-06T03:42:35.899Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "373e1b7c5a3bf5b4b5caf6dbbd2695949abab766f4976e4152ad07f398399d2f",
+    "signature": ""
+  },
+  {
+    "seq": 227,
+    "timestamp": "2026-04-06T03:42:37.909Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "e6374cc054c5ae06c60ad4cffe41a4363172066e6fd39c7e138189f6ab7362f4",
+    "signature": ""
+  },
+  {
+    "seq": 228,
+    "timestamp": "2026-04-06T03:42:39.914Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "6a5958ca18d5bffe7574086f261d37bec2443debce9c0fb4009be41e701c366c",
+    "signature": ""
+  },
+  {
+    "seq": 229,
+    "timestamp": "2026-04-06T03:42:41.919Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "be342fbce18910b56b18fd5fdf8a575dfdfa55c198f6e81aca78820c933c7258",
+    "signature": ""
+  },
+  {
+    "seq": 230,
+    "timestamp": "2026-04-06T03:42:43.927Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "7e4855e206f31058d80ee6be4c4228154d9cb8febdf09e0df120888df691b60b",
+    "signature": ""
+  },
+  {
+    "seq": 231,
+    "timestamp": "2026-04-06T03:42:45.931Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "643f7422c89f913c5b64fd5a51986e8f5b0c58daf6f04c03fd78772acd56c235",
+    "signature": ""
+  },
+  {
+    "seq": 232,
+    "timestamp": "2026-04-06T03:42:47.946Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "3b176a1be51d3f08bd0975baac0671fd30ae5871d91bdef8eb3fadbc25e32f49",
+    "signature": ""
+  },
+  {
+    "seq": 233,
+    "timestamp": "2026-04-06T03:42:49.957Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "271f8645c04141e96c322bca4c3e0362c7df18fc8b8cae978f2475d654f5a781",
+    "signature": ""
+  },
+  {
+    "seq": 234,
+    "timestamp": "2026-04-06T03:42:51.962Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "eeb67ec836d21375dc7009d7fc1c2280ba632bf19527f5a08c504709ca6fd191",
+    "signature": ""
+  },
+  {
+    "seq": 235,
+    "timestamp": "2026-04-06T03:42:53.970Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "0c3331ed481184ff6766898a0ec18a6426e378d42519f89ae1f85bab37232741",
+    "signature": ""
+  },
+  {
+    "seq": 236,
+    "timestamp": "2026-04-06T03:42:55.981Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "86a57e3e6d28b85007c78dd3c600a315eaa36b23bfa934e40118cd0a27685cd6",
+    "signature": ""
+  },
+  {
+    "seq": 237,
+    "timestamp": "2026-04-06T03:42:57.982Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "5dd2c53c9822f46c5be080432a8a4cc53b56b372ce3726a311effef3affca71d",
+    "signature": ""
+  },
+  {
+    "seq": 238,
+    "timestamp": "2026-04-06T03:42:59.987Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "09f7d6006041e5389e3612d67313f0b9e17774106f3fc24a09756c17e6104d8f",
+    "signature": ""
+  },
+  {
+    "seq": 239,
+    "timestamp": "2026-04-06T03:43:01.997Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d1633e5c1bad662b6b7d5097b30deb683ed6f24c813716feae7993364b77ea8b",
+    "signature": ""
+  },
+  {
+    "seq": 240,
+    "timestamp": "2026-04-06T03:43:04.004Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "b06b9680b96c2e2615cb23772b99041997ddc2367e01aa9ee1fa74af31847054",
+    "signature": ""
+  },
+  {
+    "seq": 241,
+    "timestamp": "2026-04-06T03:43:06.011Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "b0ef9087fce582d8b0d3be9b6afe4f31de1b799915864f3ec98884059c9a392a",
+    "signature": ""
+  },
+  {
+    "seq": 242,
+    "timestamp": "2026-04-06T03:43:08.018Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "9124fca4a18e32d1bb5e832264df1d28a4b9d35845d8cb7ab4681209aa9078f2",
+    "signature": ""
+  },
+  {
+    "seq": 243,
+    "timestamp": "2026-04-06T03:43:10.023Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "68dea3bc5855923d543361fd51c0092900fe7f673fe5f7c6d9866c97a5ceccd4",
+    "signature": ""
+  },
+  {
+    "seq": 244,
+    "timestamp": "2026-04-06T03:43:12.029Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "c6b15ab25efab4755f5f46612df272b2b419f4ef22733c795c640556f4bf8255",
+    "signature": ""
+  },
+  {
+    "seq": 245,
+    "timestamp": "2026-04-06T03:43:14.031Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "fc0ab20122179d506ec748f10829c579150d566f253938986dbcaab4842cd677",
+    "signature": ""
+  },
+  {
+    "seq": 246,
+    "timestamp": "2026-04-06T03:43:16.034Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "b39be5921b6adb454c0346f57d907646080e517594fabfc8a59e3937de3955f1",
+    "signature": ""
+  },
+  {
+    "seq": 247,
+    "timestamp": "2026-04-06T03:43:18.042Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "bae7103c0c21f3e0370732822d36f4995f971143d84d5b5131f9058f65486f32",
+    "signature": ""
+  },
+  {
+    "seq": 248,
+    "timestamp": "2026-04-06T03:43:20.049Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "555917e862641a084251c50afea7602a42e43a230067b2515c8a08e733b6879b",
+    "signature": ""
+  },
+  {
+    "seq": 249,
+    "timestamp": "2026-04-06T03:43:22.055Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "82091a4e46020a6d04c9768162ff5bf137573d50acf84242e09342da16582775",
+    "signature": ""
+  },
+  {
+    "seq": 250,
+    "timestamp": "2026-04-06T03:43:24.063Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "054412cbaed903e0d05c0ad6c471c9c003f658d596a9feca3b2fc6d00c8318fd",
+    "signature": ""
+  },
+  {
+    "seq": 251,
+    "timestamp": "2026-04-06T03:43:26.069Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "20276d4fbf8c3772f49531d25cfd733fb7af9ec4635b21f7a040131dbbf428b1",
+    "signature": ""
+  },
+  {
+    "seq": 252,
+    "timestamp": "2026-04-06T03:43:28.076Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "ecc8e1623a65e3d151a7eb7217124061220de6c038cecd88339c2c1c9aceccec",
+    "signature": ""
+  },
+  {
+    "seq": 253,
+    "timestamp": "2026-04-06T03:43:30.081Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "34fe90c5f4ebdb4f2c2359912baae1ab4b7d83203f4e7cbc55a7f5018d1ca58d",
+    "signature": ""
+  },
+  {
+    "seq": 254,
+    "timestamp": "2026-04-06T03:43:32.085Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "3d28670c11687648adf65878187401d370f167de5f05f3ccc6593d2f920ee208",
+    "signature": ""
+  },
+  {
+    "seq": 255,
+    "timestamp": "2026-04-06T03:43:34.089Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "935df0570b601618b6cbe790383c1a2ab5af9f030995521839d437b5814bfb33",
+    "signature": ""
+  },
+  {
+    "seq": 256,
+    "timestamp": "2026-04-06T03:43:36.098Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "58da50c2fa08aba8cb43126dd11ac4edd33b32cc26bbef2a0b66177ee838d0fb",
+    "signature": ""
+  },
+  {
+    "seq": 257,
+    "timestamp": "2026-04-06T03:43:38.107Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "514af81e59b4cd6ad76a2ea41c913d50db0ade37a9b74176bb535acc5dc20830",
+    "signature": ""
+  },
+  {
+    "seq": 258,
+    "timestamp": "2026-04-06T03:43:40.112Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "1088359f10e5a02bfd1c23a3f7a9cb11c1b526f1a95246aafd63cbe217d4dfb9",
+    "signature": ""
+  },
+  {
+    "seq": 259,
+    "timestamp": "2026-04-06T03:43:42.120Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "74b6538df51ad346d32efff472ecbd06f323a4dfe41be01aaf0d838d8d52e810",
+    "signature": ""
+  },
+  {
+    "seq": 260,
+    "timestamp": "2026-04-06T03:43:44.123Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "f29f7fc5079c8b12b20745206512f84a729cc183498439fb7e96cd037d00f69a",
+    "signature": ""
+  },
+  {
+    "seq": 261,
+    "timestamp": "2026-04-06T03:43:46.133Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "e7e03242307bfe473644b434b39166e7ee689c9dbf096d193a99bd33b2a09cb8",
+    "signature": ""
+  },
+  {
+    "seq": 262,
+    "timestamp": "2026-04-06T03:43:48.146Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "8b60d1c72cb967383208bc2d7a341269b0fa95a4664979af1b506af999f7a1dc",
+    "signature": ""
+  },
+  {
+    "seq": 263,
+    "timestamp": "2026-04-06T03:43:50.157Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "701538c8bafeac3e4adfea544d7c2173022d8750691256a129a0bb8ec08a3389",
+    "signature": ""
+  },
+  {
+    "seq": 264,
+    "timestamp": "2026-04-06T03:43:52.161Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "f72fd1dd6b22825ae9834336f733d67306991daf54f6cac024e3d3882685efd0",
+    "signature": ""
+  },
+  {
+    "seq": 265,
+    "timestamp": "2026-04-06T03:43:54.164Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "fca474b9716267de30531e86c70c67dcb437e5eb2b339786b80a5e7e5d9f335b",
+    "signature": ""
+  },
+  {
+    "seq": 266,
+    "timestamp": "2026-04-06T03:43:56.168Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "5e71202ef2f73c8c321dfc28c913896244112ffa54cd9ae66aba0418a306c8b5",
+    "signature": ""
+  },
+  {
+    "seq": 267,
+    "timestamp": "2026-04-06T03:43:58.177Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "4aaaaf7c829d1f54a752c403feeadfba55e793077e551fdbb56fce41abb3efd3",
+    "signature": ""
+  },
+  {
+    "seq": 268,
+    "timestamp": "2026-04-06T03:44:00.182Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "bf7905f54a17e801dcbb64fe340bcee13e479b49d888305a9b099ffee3039472",
+    "signature": ""
+  },
+  {
+    "seq": 269,
+    "timestamp": "2026-04-06T03:44:02.191Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "e59c66e19b31d25f1eb75ab1124be695684599119be57ecd6a98afaa4cc5c294",
+    "signature": ""
+  },
+  {
+    "seq": 270,
+    "timestamp": "2026-04-06T03:44:04.202Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "09f4229e287809f8b1df34fbb36f0ec78391f1f8edcbb49b1bdb765171ac5c56",
+    "signature": ""
+  },
+  {
+    "seq": 271,
+    "timestamp": "2026-04-06T03:44:06.210Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "90eb04972758a8f739e6b95c87412ca526a4f46171f479a6e18239f6b0e7781e",
+    "signature": ""
+  },
+  {
+    "seq": 272,
+    "timestamp": "2026-04-06T03:44:08.216Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "ffb86267cf2bb64e428cc6648b7e01f1c28fbb5ea4fb2bf042e5bfde4bca04d2",
+    "signature": ""
+  },
+  {
+    "seq": 273,
+    "timestamp": "2026-04-06T03:44:10.227Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "0dc0f4c5e7cb57e77d6c8b45c1e696672dd05728186b24934fad506e264ce429",
+    "signature": ""
+  },
+  {
+    "seq": 274,
+    "timestamp": "2026-04-06T03:44:12.233Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "acd6bf52d4ac553dfbfcfd4a76b1569bcdecfc7bb30c0d7f88a25cbfb09c8794",
+    "signature": ""
+  },
+  {
+    "seq": 275,
+    "timestamp": "2026-04-06T03:44:14.249Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "f884ef74b2f95af1445bbac108b4e1635de4b0f0a1791589afecbe2982f99626",
+    "signature": ""
+  },
+  {
+    "seq": 276,
+    "timestamp": "2026-04-06T03:44:16.256Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "614fbb4493e9c41290a6d066a16becd17b669708fcb3322c718ef1f7ce73b7d5",
+    "signature": ""
+  },
+  {
+    "seq": 277,
+    "timestamp": "2026-04-06T03:44:18.258Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "360a0c2c9999a4ea519d8a0d398894620031b5ab9f4e9501641c3e62c9fd992b",
+    "signature": ""
+  },
+  {
+    "seq": 278,
+    "timestamp": "2026-04-06T03:44:20.258Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "63248de3d316f33862a74776a4c83d05b82818e382f6a1023f077158da2b191c",
+    "signature": ""
+  },
+  {
+    "seq": 279,
+    "timestamp": "2026-04-06T03:44:22.261Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "718eab5dc41c2d89bb6e4f815f55d61aeb745cb03de5a57d3af82c71be86826d",
+    "signature": ""
+  },
+  {
+    "seq": 280,
+    "timestamp": "2026-04-06T03:44:24.271Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d96593ece0451738f88aa0afd8f340aef4750bb63c5d0cf9d83bd79fd2f24a6b",
+    "signature": ""
+  },
+  {
+    "seq": 281,
+    "timestamp": "2026-04-06T03:44:26.283Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "4f5db0d60ceaa8dcd0cbd3dcaca7dbb4db497f5314c11c4cc71cb9860eeb1332",
+    "signature": ""
+  },
+  {
+    "seq": 282,
+    "timestamp": "2026-04-06T03:44:28.296Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "8b36d9729ffc3156735c3b5f689bfe70161807f3fa7afa731d1e91c27899db1a",
+    "signature": ""
+  },
+  {
+    "seq": 283,
+    "timestamp": "2026-04-06T03:44:30.304Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "4d3ed5a22f01cff9a5dbf9445e4e8a4cae7b4c21969b6f899e1ed3862778fe44",
+    "signature": ""
+  },
+  {
+    "seq": 284,
+    "timestamp": "2026-04-06T03:44:32.307Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "24b36975ff70063f66a90a4e7d7c71cbaed35aa208d4c90aef6aeaee90c9275f",
+    "signature": ""
+  },
+  {
+    "seq": 285,
+    "timestamp": "2026-04-06T03:44:34.320Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "b2ddd80d2d465754e34b4464b27cd3070fc26a3ff0b493fd8ea14f0430498086",
+    "signature": ""
+  },
+  {
+    "seq": 286,
+    "timestamp": "2026-04-06T03:44:36.321Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "43bffec9e69df5c9b71a31ade9aec26f8ce80467943aa627258f84285ec8222c",
+    "signature": ""
+  },
+  {
+    "seq": 287,
+    "timestamp": "2026-04-06T03:44:38.323Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "974ada07fd5c607ced1aa945cc5405a465ff30e5b068788d1e902a0d4078d65a",
+    "signature": ""
+  },
+  {
+    "seq": 288,
+    "timestamp": "2026-04-06T03:44:40.326Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "f5c07b8d5881345520cf299c48971c32fa6338d022c4eba4d747ee0d768b83c7",
+    "signature": ""
+  },
+  {
+    "seq": 289,
+    "timestamp": "2026-04-06T03:44:42.340Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "af0a406c1b4f774b0346cdc380a891bb158a359cc5d351711a2e3dfd87a9935c",
+    "signature": ""
+  },
+  {
+    "seq": 290,
+    "timestamp": "2026-04-06T03:44:44.344Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "c2a6c7c0ca9572327a2c9da728ebe5173ce50f7319d9c0ace2fe8b2a98af8fb3",
+    "signature": ""
+  },
+  {
+    "seq": 291,
+    "timestamp": "2026-04-06T03:44:46.345Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "3910c2ded3622b1d80ecac2d4f0d2cdca1589ee1edcd3e940c623f11f02bbc81",
+    "signature": ""
+  },
+  {
+    "seq": 292,
+    "timestamp": "2026-04-06T03:44:48.345Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "36bd714aa47b43e4b677fbdfba8bb303ea55367026811cb8a27ca0a03829da9a",
+    "signature": ""
+  },
+  {
+    "seq": 293,
+    "timestamp": "2026-04-06T03:44:50.353Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "3c43c358843f8140f1cd35e20331260922571365d4fb9e06d6b8158224b1a062",
+    "signature": ""
+  },
+  {
+    "seq": 294,
+    "timestamp": "2026-04-06T03:44:52.357Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "05ae0c4358c3859b0af3d5e7c602601712e55ac05afc65ce4aebe6fd4c85be4c",
+    "signature": ""
+  },
+  {
+    "seq": 295,
+    "timestamp": "2026-04-06T03:44:54.371Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "0e3a563a645720623402abde627254a813acb84844d6507ed2541ef02e1e69aa",
+    "signature": ""
+  },
+  {
+    "seq": 296,
+    "timestamp": "2026-04-06T03:44:56.385Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "4ceb1d728747b2d38d6c30e17f205e53a422a0b1113bb2770fc336bb010c4744",
+    "signature": ""
+  },
+  {
+    "seq": 297,
+    "timestamp": "2026-04-06T03:44:58.388Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "2ce545fed5b1d02dd2fbb54daae6f46248012581d45d1da9d88b7889760c354f",
+    "signature": ""
+  },
+  {
+    "seq": 298,
+    "timestamp": "2026-04-06T03:45:00.388Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "0a4dc3f8264f148fb44cee9e284d56791a77b2fa1eae752e30f7e34f00550751",
+    "signature": ""
+  },
+  {
+    "seq": 299,
+    "timestamp": "2026-04-06T03:45:02.402Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "78d6797fa02d5087329ecb9e3d429a83b77b5947c2b07500ab1dcda469e60c0b",
+    "signature": ""
+  },
+  {
+    "seq": 300,
+    "timestamp": "2026-04-06T03:45:04.406Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "722c2fba0a4dc0c6b825cb71ab7ebad6fa79edb965a54e02aa5bf1f62685da43",
+    "signature": ""
+  },
+  {
+    "seq": 301,
+    "timestamp": "2026-04-06T03:45:06.406Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "9bc287f765afad88eaaba2683145a1df3696374cda1eb74937c3ae46d6adf391",
+    "signature": ""
+  },
+  {
+    "seq": 302,
+    "timestamp": "2026-04-06T03:45:08.407Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a5d64fdb16f1f10158aab5526b133ffa36157a29d32e5dc1bf8c8eb4a9309351",
+    "signature": ""
+  },
+  {
+    "seq": 303,
+    "timestamp": "2026-04-06T03:45:10.415Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "58c3c39ebb73b13322123b988cc32258d29231d75933563be782380aea3d6f61",
+    "signature": ""
+  },
+  {
+    "seq": 304,
+    "timestamp": "2026-04-06T03:45:12.422Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "67429c82af36ca00c53d9b4108e7f9c0a1725c71937c370589d163fa0f330a0c",
+    "signature": ""
+  },
+  {
+    "seq": 305,
+    "timestamp": "2026-04-06T03:45:14.428Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "827823113807afb0de16ecc16f90d8ecd942cea353c6b92c19df3686377ca8f6",
+    "signature": ""
+  },
+  {
+    "seq": 306,
+    "timestamp": "2026-04-06T03:45:16.442Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "e237d9513322da960e4351218e7fbbaac20d4df7c7da612ea3027aea8885350d",
+    "signature": ""
+  },
+  {
+    "seq": 307,
+    "timestamp": "2026-04-06T03:45:18.448Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "f51d6fdcb813197113b7faabcf63692af1517e747dec7947b43f5407e21f4817",
+    "signature": ""
+  },
+  {
+    "seq": 308,
+    "timestamp": "2026-04-06T03:45:20.449Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "ac44604386702daa9e8939d66a0b06d8c18f421d222af8192fd65da831e09de6",
+    "signature": ""
+  },
+  {
+    "seq": 309,
+    "timestamp": "2026-04-06T03:45:22.464Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "df9b04e7b8d314f2ed16b9a1d6d0b3bfaba25b528f6e5d1f0dd13919537143a6",
+    "signature": ""
+  },
+  {
+    "seq": 310,
+    "timestamp": "2026-04-06T03:45:24.467Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "93be36cac347639e71c6c3154490015f6968222e29a6918e123e3b866520378d",
+    "signature": ""
+  },
+  {
+    "seq": 311,
+    "timestamp": "2026-04-06T03:45:26.468Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "7f66894224cce28bfca7d80ffb38b6913be4851d5aeb72726272ffdb4ff0e4d9",
+    "signature": ""
+  },
+  {
+    "seq": 312,
+    "timestamp": "2026-04-06T03:45:28.475Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "f462f313e2f0656b7845e620bad189f3f9225614362647f90b2cdcaf10216ab2",
+    "signature": ""
+  },
+  {
+    "seq": 313,
+    "timestamp": "2026-04-06T03:45:30.486Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "07f5e069a78f52c9bd7f2fa47cb3b41aaa8d33a138f4d6285064f29887970616",
+    "signature": ""
+  },
+  {
+    "seq": 314,
+    "timestamp": "2026-04-06T03:45:32.492Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "6b0394059f39ced29ee9fddec9e03ec4c8828e3c752cfa56d07ada1bf697f99b",
+    "signature": ""
+  },
+  {
+    "seq": 315,
+    "timestamp": "2026-04-06T03:45:34.495Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "6413f4586fba921d92baf3c1f33f83796507f197d7d1883ffb7ec342d3964148",
+    "signature": ""
+  },
+  {
+    "seq": 316,
+    "timestamp": "2026-04-06T03:45:36.496Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "e8998698003c6759825fc33d140f3330b02fec73f8768cddb91d84324f11ecf6",
+    "signature": ""
+  },
+  {
+    "seq": 317,
+    "timestamp": "2026-04-06T03:45:38.503Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "595ffc58aff849c80f39dc337c1f28c1342fba262807bb3ce3b039375fdbff30",
+    "signature": ""
+  },
+  {
+    "seq": 318,
+    "timestamp": "2026-04-06T03:45:40.507Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "0bcd01ec314a31b7bd617fdbd2cb87056d5dec6d208ba1a7745b0f2d44f26747",
+    "signature": ""
+  },
+  {
+    "seq": 319,
+    "timestamp": "2026-04-06T03:45:42.515Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "8e60ef418c5d7b8a58a0f2aee7de1851c53cffd92194cbc0a2a609535cd9a377",
+    "signature": ""
+  },
+  {
+    "seq": 320,
+    "timestamp": "2026-04-06T03:45:44.529Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "2434fbc936e578978c76ef19748f85272b0b98fd5bb83922c8791f5ad899ed8a",
+    "signature": ""
+  },
+  {
+    "seq": 321,
+    "timestamp": "2026-04-06T03:45:46.530Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "483c6b041767b74b6ad3e3c47cf4566908be7b18561513bde589f767f8a7416a",
+    "signature": ""
+  },
+  {
+    "seq": 322,
+    "timestamp": "2026-04-06T03:45:48.544Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a096f2b93afeb8e14c57aecef5152e0cf273f8c00649ee7cfb9a7bbdff8d2e2b",
+    "signature": ""
+  },
+  {
+    "seq": 323,
+    "timestamp": "2026-04-06T03:45:50.549Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "2033a9a8891a2438f3c15f8d6e6491a56084c8e2548e76bc63de5a25c5435bac",
+    "signature": ""
+  },
+  {
+    "seq": 324,
+    "timestamp": "2026-04-06T03:45:52.557Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "253d93bf77ced5425e92f720367a1335c43e11568dfeac9b9cadd34cd14b43e4",
+    "signature": ""
+  },
+  {
+    "seq": 325,
+    "timestamp": "2026-04-06T03:45:54.573Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "42a303dd98c51920913969e21231254600035a068c7e4483685018547191803c",
+    "signature": ""
+  },
+  {
+    "seq": 326,
+    "timestamp": "2026-04-06T03:45:56.574Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "7b4e1208b1470ef01c15ab006322db1d146bb0d0490e3aaad7ad0a7f0c66d004",
+    "signature": ""
+  },
+  {
+    "seq": 327,
+    "timestamp": "2026-04-06T03:45:58.575Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "7fb2bea9726ce6a0daa7850aff61f0d4936e1e5c7e6d333eb2ec9feff0e23b0e",
+    "signature": ""
+  },
+  {
+    "seq": 328,
+    "timestamp": "2026-04-06T03:46:00.576Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "f53ff40fcdecc5f0b4a371a11d683b54954be39e838731c5abfb8019250de2fa",
+    "signature": ""
+  },
+  {
+    "seq": 329,
+    "timestamp": "2026-04-06T03:46:02.579Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "eedfaa2797ccf77964acf0aaeadcc02854a08d238fd92f3c76dc2ff90d8840e7",
+    "signature": ""
+  },
+  {
+    "seq": 330,
+    "timestamp": "2026-04-06T03:46:04.592Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "e59f3ecae428f9d1ff0ad9562c7b2ba6dd2ca36e074bd3e73b4aabf6b9007145",
+    "signature": ""
+  },
+  {
+    "seq": 331,
+    "timestamp": "2026-04-06T03:46:06.606Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "5d501d12f696f214e1c2c2eca3550dfa85b1f508da897fe1e4222f59950d6f7b",
+    "signature": ""
+  },
+  {
+    "seq": 332,
+    "timestamp": "2026-04-06T03:46:08.607Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "740a8605de74aa63f87a7b0cace2a6b316416c09195dcf81783fbcd0950f6d1d",
+    "signature": ""
+  },
+  {
+    "seq": 333,
+    "timestamp": "2026-04-06T03:46:10.615Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "08c66d6174312cc323e10116d1a7ac6604e3b3431f7a8ca2c3a349d0f3ed008d",
+    "signature": ""
+  },
+  {
+    "seq": 334,
+    "timestamp": "2026-04-06T03:46:12.628Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "3cb490aff6d2e8f3151ff5f997775b6d656d03c95555b162b8f45631f89fddc8",
+    "signature": ""
+  },
+  {
+    "seq": 335,
+    "timestamp": "2026-04-06T03:46:14.635Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "01ca5d3c0e0ea152082663eb13da2086cb4ac2f3314cb907ee7c9a2ea3e578b5",
+    "signature": ""
+  },
+  {
+    "seq": 336,
+    "timestamp": "2026-04-06T03:46:16.641Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "fa340c7c06f8046c743cd668813978ef0febc50b04520b920ddbedd8525247c6",
+    "signature": ""
+  },
+  {
+    "seq": 337,
+    "timestamp": "2026-04-06T03:46:18.642Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "c6f23531bf066fae17bd8c4a4d969f0d41f6219743aeaec4946eb328cb4adea2",
+    "signature": ""
+  },
+  {
+    "seq": 338,
+    "timestamp": "2026-04-06T03:46:20.644Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "01d4ad466ca204d652322add43412d57f271a10f48a0693e6fbb690861cf28ed",
+    "signature": ""
+  },
+  {
+    "seq": 339,
+    "timestamp": "2026-04-06T03:46:22.648Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "7c3ecf117762d2d6876a289c265a8e0603081ad5c709a337e5c886c1bcc86006",
+    "signature": ""
+  },
+  {
+    "seq": 340,
+    "timestamp": "2026-04-06T03:46:24.659Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "db1790789c67a1dd2309138ee380d074740a816fcd7b6cbb94de253c5f0c0e91",
+    "signature": ""
+  },
+  {
+    "seq": 341,
+    "timestamp": "2026-04-06T03:46:26.659Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "774c1330408b614d45ce6fb46ee26f9706915179f22c3b4cbcd8b0931f02e7e4",
+    "signature": ""
+  },
+  {
+    "seq": 342,
+    "timestamp": "2026-04-06T03:46:28.673Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "1b55efe135eeb3302ac350dbd1baf5742766d015c018e11f27252c3be423ce30",
+    "signature": ""
+  },
+  {
+    "seq": 343,
+    "timestamp": "2026-04-06T03:46:30.686Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "e64183d182d35950f2ce7f6851157df91946150b2b17d9cb80d768c109936398",
+    "signature": ""
+  },
+  {
+    "seq": 344,
+    "timestamp": "2026-04-06T03:46:32.690Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "4879ec998bd80807edfe8f181c7a7d80e20f362baea2394a558596fabea6a444",
+    "signature": ""
+  },
+  {
+    "seq": 345,
+    "timestamp": "2026-04-06T03:46:34.695Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "94616743c22bc843614557a36ce5fe4665ddbab8a339e15884a89e51b509fc3c",
+    "signature": ""
+  },
+  {
+    "seq": 346,
+    "timestamp": "2026-04-06T03:46:36.708Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "9ea5d5562ce707d1bcb203aeeffca4f032014f3dceee46545e937d1ae7ca300e",
+    "signature": ""
+  },
+  {
+    "seq": 347,
+    "timestamp": "2026-04-06T03:46:38.722Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "1f7b04a79c1a544764c2560a62d48786eddf423851c1c651520ec9040bf5c676",
+    "signature": ""
+  },
+  {
+    "seq": 348,
+    "timestamp": "2026-04-06T03:46:40.729Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "993c8540a4f596d6e0f1a3a289d0c4e89f81c3e295df03679fdaf80a67647cfb",
+    "signature": ""
+  },
+  {
+    "seq": 349,
+    "timestamp": "2026-04-06T03:46:42.735Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "3d2de20e398ef2850701231ccc2585e83d32dd3acab8fad1bef82406b71ddc53",
+    "signature": ""
+  },
+  {
+    "seq": 350,
+    "timestamp": "2026-04-06T03:46:44.736Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "56de5464eb526e6f816189f116dd57f29d8d650c0332d14fa8ce4dcd1bc9325c",
+    "signature": ""
+  },
+  {
+    "seq": 351,
+    "timestamp": "2026-04-06T03:46:46.743Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "ee63ad7a884090b7b1cd33cf2530280a98b6a55685d731a8470b43db5b09a745",
+    "signature": ""
+  },
+  {
+    "seq": 352,
+    "timestamp": "2026-04-06T03:46:48.754Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "f6ba6b8fbe139640536179db7591db1d3746407539d81ca5293ea08808cb22b7",
+    "signature": ""
+  },
+  {
+    "seq": 353,
+    "timestamp": "2026-04-06T03:46:50.754Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "6bcff9d374b31e23ba60455b114e6d316a9e7f99d595286e0137793f8aa550c8",
+    "signature": ""
+  },
+  {
+    "seq": 354,
+    "timestamp": "2026-04-06T03:46:52.763Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "c8a1ee07811e76603d16ba80b92da9b39dcbfeab5391f3d0593678865811d3a2",
+    "signature": ""
+  },
+  {
+    "seq": 355,
+    "timestamp": "2026-04-06T03:46:54.767Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "3f93f8723d64347cbfdc8bef9cb173de5f73437a97ae68a55c71f4ca50f451e1",
+    "signature": ""
+  },
+  {
+    "seq": 356,
+    "timestamp": "2026-04-06T03:46:56.782Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a2e8318d9a161d458f1060b9adbc4547db3e6fbf6fe8e1943d948ffa24597b25",
+    "signature": ""
+  },
+  {
+    "seq": 357,
+    "timestamp": "2026-04-06T03:46:58.795Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "029bfc9b6b5d3ebf96f3f7417a8df1571bb399d696b4b0f36f559b0c02ddd095",
+    "signature": ""
+  },
+  {
+    "seq": 358,
+    "timestamp": "2026-04-06T03:47:00.798Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "fd3e61a3e7526973ecd1c4fb7751c3768834b866f9804dd270eb2bce2b8ea552",
+    "signature": ""
+  },
+  {
+    "seq": 359,
+    "timestamp": "2026-04-06T03:47:02.805Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "83f4d68ca518865081324f5369f95bf6b140dd07f32e5a79d01bc2d5715fa036",
+    "signature": ""
+  },
+  {
+    "seq": 360,
+    "timestamp": "2026-04-06T03:47:04.807Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "744eb61857ec6b186ff753914b07509aa42685a6c7ca37e3c34d4f515ce1ee2a",
+    "signature": ""
+  },
+  {
+    "seq": 361,
+    "timestamp": "2026-04-06T03:47:06.814Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "90b66f329d32672b03d46322e3d5459c348649646024812a08a10805efec30a7",
+    "signature": ""
+  },
+  {
+    "seq": 362,
+    "timestamp": "2026-04-06T03:47:08.816Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "fd1be33ec003712ce034a36fb893afca82991d9e0251cb2f58d9d9261e24d552",
+    "signature": ""
+  },
+  {
+    "seq": 363,
+    "timestamp": "2026-04-06T03:47:10.818Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "2f64f617f0f9ea081817df31c76d5ac50c5e991c2aa83e28d1140cdaee6d2fb1",
+    "signature": ""
+  },
+  {
+    "seq": 364,
+    "timestamp": "2026-04-06T03:47:12.818Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "b7a071981df2daa463ccbb08af81bffb25bcc392ff93bf30c0779375f02b0b19",
+    "signature": ""
+  },
+  {
+    "seq": 365,
+    "timestamp": "2026-04-06T03:47:14.824Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "676c119501b7b71c99544d57177e9b3e667acf3dd337400c8d1e5ef211b8dd53",
+    "signature": ""
+  },
+  {
+    "seq": 366,
+    "timestamp": "2026-04-06T03:47:16.833Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "9c10161a6189f54b1a5a46ee6abfca7fd2345316d4edffd89220b8358125e526",
+    "signature": ""
+  },
+  {
+    "seq": 367,
+    "timestamp": "2026-04-06T03:47:18.844Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "9571e90961b03b7702e7c21ea7392c305387c24bab22724f5a9b51a8c8247093",
+    "signature": ""
+  },
+  {
+    "seq": 368,
+    "timestamp": "2026-04-06T03:47:20.845Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "26ae494561edd0ae47d1b20f645382e8449da9de61a1794f5430f7854e564de4",
+    "signature": ""
+  },
+  {
+    "seq": 369,
+    "timestamp": "2026-04-06T03:47:22.853Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "237595dbc9de742c00febbdc9b2f010a86d522d65bc675ffac59d2021d1cb79f",
+    "signature": ""
+  },
+  {
+    "seq": 370,
+    "timestamp": "2026-04-06T03:47:24.855Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "c224621e5c7efb4a8e1789e6f6f189cb47b32de9cbdddeb21c75dd4446f164b1",
+    "signature": ""
+  },
+  {
+    "seq": 371,
+    "timestamp": "2026-04-06T03:47:26.861Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "b75fd6dc0bca8aa9a1b2ea1620ea7114bdcb0edf4cb90286cf7996564251ecb2",
+    "signature": ""
+  },
+  {
+    "seq": 372,
+    "timestamp": "2026-04-06T03:47:28.873Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "973daa5ad78679196754d7be31d0f31cc7e334498f28dd0e70e6226405bff59f",
+    "signature": ""
+  },
+  {
+    "seq": 373,
+    "timestamp": "2026-04-06T03:47:30.885Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "40e8bd3ceae2619c2ad774f32833f871cb2a9c679680c8a7589941bf06e2260b",
+    "signature": ""
+  },
+  {
+    "seq": 374,
+    "timestamp": "2026-04-06T03:47:32.894Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "6edb5bca83cc0257fe28ef4fa0b923ee9ee61e16016f4bd9cd1320ce9c2756b4",
+    "signature": ""
+  },
+  {
+    "seq": 375,
+    "timestamp": "2026-04-06T03:47:34.900Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "748eb1a341631a27bb7d8177ebc0f3b61427577717d9645d990b5f3ab03e0db8",
+    "signature": ""
+  },
+  {
+    "seq": 376,
+    "timestamp": "2026-04-06T03:47:36.904Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "7e91277df653cfa15bf7a503113b6cdd178c316a98dcdfe335b0134643c70f63",
+    "signature": ""
+  },
+  {
+    "seq": 377,
+    "timestamp": "2026-04-06T03:47:38.909Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "242d371470701ad6fbf83f38678e885ae7b6aac4065ba9b14797721daca9ba05",
+    "signature": ""
+  },
+  {
+    "seq": 378,
+    "timestamp": "2026-04-06T03:47:40.917Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "851256780bb19e80e64a29ee920e77a7aefb6ab116b191793e5da56d0c02a18c",
+    "signature": ""
+  },
+  {
+    "seq": 379,
+    "timestamp": "2026-04-06T03:47:42.925Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "b30a3e4eae0f67c2ffee358bedf4e6a8a1b1406bdda527c0168eb93dbdf60ce4",
+    "signature": ""
+  },
+  {
+    "seq": 380,
+    "timestamp": "2026-04-06T03:47:44.929Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "532e533ad678dc074f52cdd8ace8d338c8831772d5d58d0a05c9758c758c4256",
+    "signature": ""
+  },
+  {
+    "seq": 381,
+    "timestamp": "2026-04-06T03:47:46.932Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "7af2685ec3e3a4de9b13d990cc9f0dfbf97129f7c85366ad4f13a5f347c55bb7",
+    "signature": ""
+  },
+  {
+    "seq": 382,
+    "timestamp": "2026-04-06T03:47:48.934Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "6d159bc1a1936e05acedc8866525c282820c94ab08edde1e533e20b4b9b83c0a",
+    "signature": ""
+  },
+  {
+    "seq": 383,
+    "timestamp": "2026-04-06T03:47:50.944Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "fa7c468f42605de756fed86e8c2c68ee97b6e90f3954bedfe5759c31f5eb719b",
+    "signature": ""
+  },
+  {
+    "seq": 384,
+    "timestamp": "2026-04-06T03:47:52.952Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "db9fae985ba367e69af45aef50a5360e17966f32e16672fb838b2a75a724367a",
+    "signature": ""
+  },
+  {
+    "seq": 385,
+    "timestamp": "2026-04-06T03:47:54.961Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d83f3f205e6891640deca37aba39464eaa6eaf7cca7e34c22e9a61bb2dab0c72",
+    "signature": ""
+  },
+  {
+    "seq": 386,
+    "timestamp": "2026-04-06T03:47:56.977Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "02d6ac3ff02450c6118519dd95ccc5cb34019c018d6ade41b5dbbf0755a646ac",
+    "signature": ""
+  },
+  {
+    "seq": 387,
+    "timestamp": "2026-04-06T03:47:58.982Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "aeb70065495d8692ca8813bb1626a785f3b211fe36fa50fbaded38d337dcfece",
+    "signature": ""
+  },
+  {
+    "seq": 388,
+    "timestamp": "2026-04-06T03:48:00.991Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "eea400ad61ee74717bd274b77c3fbcc41aa9de0bce257543b69ae3dc0481b9c8",
+    "signature": ""
+  },
+  {
+    "seq": 389,
+    "timestamp": "2026-04-06T03:48:03.004Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "fde2da776dd9f859a83e8603eb5baa16eb9a058c1c867c87ebc37bacfe2e1edf",
+    "signature": ""
+  },
+  {
+    "seq": 390,
+    "timestamp": "2026-04-06T03:48:05.010Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a8d7e03161252cf98eaaa032ade9bb9de0fbc3ab8d550e536d5203de376e5379",
+    "signature": ""
+  },
+  {
+    "seq": 391,
+    "timestamp": "2026-04-06T03:48:07.016Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "6686d4c287dec6f788c28dda833e033be1c2a3259c1b2a9bac6031d63ec976c1",
+    "signature": ""
+  },
+  {
+    "seq": 392,
+    "timestamp": "2026-04-06T03:48:09.022Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "7b08657c3d765877fba0c668b9215029a564ce0736ede4be66fb949ccabe4ff6",
+    "signature": ""
+  },
+  {
+    "seq": 393,
+    "timestamp": "2026-04-06T03:48:11.027Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "df737bb4b7dff5838f18932780dc0af009d53780105c782dfcbed48b02f4466a",
+    "signature": ""
+  },
+  {
+    "seq": 394,
+    "timestamp": "2026-04-06T03:48:13.028Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "85d9a57ae342e1eb81209aa3d4b9d997c26e803cef201450107f8e3ab993ea8f",
+    "signature": ""
+  },
+  {
+    "seq": 395,
+    "timestamp": "2026-04-06T03:48:15.038Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "59b65785be33e110d8597f53026431aa7f6aa4aeb44c240d4655eb8ff83331a8",
+    "signature": ""
+  },
+  {
+    "seq": 396,
+    "timestamp": "2026-04-06T03:48:17.050Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "216c7f9997ce1dc7ac269fd2a2a60d8d24eb8dc331dd70a6cc26c5da63a8aaaa",
+    "signature": ""
+  },
+  {
+    "seq": 397,
+    "timestamp": "2026-04-06T03:48:19.059Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "34b7a2f28368abadb946184f7f706e3155c1da2fe08aa9f59224038c316b35ee",
+    "signature": ""
+  },
+  {
+    "seq": 398,
+    "timestamp": "2026-04-06T03:48:21.062Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "402ee04c7d260ff0772c1632ce1cd8b633b5b5742ae7a656cc76c7b3e1ec56e6",
+    "signature": ""
+  },
+  {
+    "seq": 399,
+    "timestamp": "2026-04-06T03:48:23.074Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "0c80af8c7ada50e7303aad02aae5a2efbd932f393ff852bc7513c26ae94231b3",
+    "signature": ""
+  },
+  {
+    "seq": 400,
+    "timestamp": "2026-04-06T03:48:25.076Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "08b6233ba2fcc57da05c8abc331c486bd857bc6bf74fde15e6a68897784bffbd",
+    "signature": ""
+  },
+  {
+    "seq": 401,
+    "timestamp": "2026-04-06T03:48:27.088Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "b1e7c394db50e334a0ce10c3b1aa650c32b719ea3477a52f695766cb312da1ea",
+    "signature": ""
+  },
+  {
+    "seq": 402,
+    "timestamp": "2026-04-06T03:48:29.091Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "9087cc7fa36d8e02db68aab6437045dfc309d41e378ff2b994ee4e3bec39122f",
+    "signature": ""
+  },
+  {
+    "seq": 403,
+    "timestamp": "2026-04-06T03:48:31.103Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "63edd4183f028bea8db61a54779250f0accfd52faa97cbed049bb51e9bd2087a",
+    "signature": ""
+  },
+  {
+    "seq": 404,
+    "timestamp": "2026-04-06T03:48:33.117Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "27328352dd4fd3b233ab0c3645f042e50f4fd90e3a7ab8a130922495d18e0a31",
+    "signature": ""
+  },
+  {
+    "seq": 405,
+    "timestamp": "2026-04-06T03:48:35.126Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "25d78b1e91a303eb0635605e9327e449cce345296190f0919ed4cd825221f4c6",
+    "signature": ""
+  },
+  {
+    "seq": 406,
+    "timestamp": "2026-04-06T03:48:37.142Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "e27e686825888ac2df4f46ddb9a4e3349df2f3ea38fc7aa3f148be831595a0fa",
+    "signature": ""
+  },
+  {
+    "seq": 407,
+    "timestamp": "2026-04-06T03:48:39.148Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "ff439127812689426d53f1201ba18e4e004b7cf04e6ef2b20e6cde86a8cdcb09",
+    "signature": ""
+  },
+  {
+    "seq": 408,
+    "timestamp": "2026-04-06T03:48:41.153Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "8bc4d1e92f6bd47f7bac7c95d36cced4237438926be770ca6445923f7ac5c29b",
+    "signature": ""
+  },
+  {
+    "seq": 409,
+    "timestamp": "2026-04-06T03:48:43.156Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "34b01775eef9d8269eec8ea0f1ec8913b0f1842d3f3c607b19e59f9a6fa28cf1",
+    "signature": ""
+  },
+  {
+    "seq": 410,
+    "timestamp": "2026-04-06T03:48:45.168Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d92a5e4d89c51ee22123539e6a841b73dd4e0211799208606a00bb7f9af20ce5",
+    "signature": ""
+  },
+  {
+    "seq": 411,
+    "timestamp": "2026-04-06T03:48:47.169Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "1d4295e4eb435efbdf3aa40f7791418ba1d65f5e165200d63b6a3369761b15c9",
+    "signature": ""
+  },
+  {
+    "seq": 412,
+    "timestamp": "2026-04-06T03:48:49.176Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "247346822a0ee46c50ed65fb08336bea81b83efc0d8d68914976bc08d2d09010",
+    "signature": ""
+  },
+  {
+    "seq": 413,
+    "timestamp": "2026-04-06T03:48:51.181Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "b79323dd7c6870691c09db0aaec5df5fcfbd1e5f7abea1668fc6a939ab393d4c",
+    "signature": ""
+  },
+  {
+    "seq": 414,
+    "timestamp": "2026-04-06T03:48:53.185Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "b0029a509b20ffece2b6f221a9bc8412f136606c3d094e0cb15cb1e15721dc1b",
+    "signature": ""
+  },
+  {
+    "seq": 415,
+    "timestamp": "2026-04-06T03:48:55.199Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "8d61f87f0ef1f2ee98572f939a373156da551b1410b50415362e5194bf8973e0",
+    "signature": ""
+  },
+  {
+    "seq": 416,
+    "timestamp": "2026-04-06T03:48:57.202Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a6bf069d0479aec06588df743597ec0c4c01926734ef81bfe070f46dadbce663",
+    "signature": ""
+  },
+  {
+    "seq": 417,
+    "timestamp": "2026-04-06T03:48:59.205Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "5f0f4ebf3bf6ff6e403aaf157576efd0e3dcbc1f958f6735cafda2b73b1f3610",
+    "signature": ""
+  },
+  {
+    "seq": 418,
+    "timestamp": "2026-04-06T03:49:01.208Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "570f579866326b418cff9717670b4178cf79a4c227b2f550b107ca87cf9cc61f",
+    "signature": ""
+  },
+  {
+    "seq": 419,
+    "timestamp": "2026-04-06T03:49:03.211Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "f20f3be9d8a460894e091ef83b7c21c093c1e62017fdae8c714cfb69995a8e80",
+    "signature": ""
+  },
+  {
+    "seq": 420,
+    "timestamp": "2026-04-06T03:49:05.213Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "85212609771b46cd08ff1ca4c9d91110748e38c6ba37f7f2e9392ef0e827ae25",
+    "signature": ""
+  },
+  {
+    "seq": 421,
+    "timestamp": "2026-04-06T03:49:07.217Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "9d69550921d14e6aebad6e78f84772a13a7620f07d96039fb5ea78b05d413608",
+    "signature": ""
+  },
+  {
+    "seq": 422,
+    "timestamp": "2026-04-06T03:49:09.223Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "c0b94058c859401a91c47635b46c8c3f2bfc1bdacb668162d2b06458e284a8de",
+    "signature": ""
+  },
+  {
+    "seq": 423,
+    "timestamp": "2026-04-06T03:49:11.225Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a2b12647d37e2e0e7f3375e5d205817bc5995cbfa41e581ad454ec847cc171a0",
+    "signature": ""
+  },
+  {
+    "seq": 424,
+    "timestamp": "2026-04-06T03:49:13.233Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "0def617ebc7a065d977b68c0319edfb4d02a9c2ea3ffbd0e9ece4ba634b09f94",
+    "signature": ""
+  },
+  {
+    "seq": 425,
+    "timestamp": "2026-04-06T03:49:15.234Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a90b7db021c07fcb498b86c1882e9d406f8b61f5b9f6a4c67953e72a7b5fd982",
+    "signature": ""
+  },
+  {
+    "seq": 426,
+    "timestamp": "2026-04-06T03:49:17.237Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "c9e01974635e18321b12fcb9a4c723e875a6120e75c3354774ff3b7e6e2105ef",
+    "signature": ""
+  },
+  {
+    "seq": 427,
+    "timestamp": "2026-04-06T03:49:19.238Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "3f4791afdbf49ab13d645fad5b012273967a6e295dc4f07f65bb4a43b425612e",
+    "signature": ""
+  },
+  {
+    "seq": 428,
+    "timestamp": "2026-04-06T03:49:21.250Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "060273af6296aaa309d389c2ba8bb86e1b5e3706d0b4c22573d46b43110dfc6f",
+    "signature": ""
+  },
+  {
+    "seq": 429,
+    "timestamp": "2026-04-06T03:49:23.258Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "de7c0b398df7f2f697e9b932379b0ba8817272f01a223759275469f203b68070",
+    "signature": ""
+  },
+  {
+    "seq": 430,
+    "timestamp": "2026-04-06T03:49:25.264Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "aa024a95f03ffd7b28288fac9e0d936cf10697fbf1b59f90cdaa938528f68359",
+    "signature": ""
+  },
+  {
+    "seq": 431,
+    "timestamp": "2026-04-06T03:49:27.273Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "d7dedd7519af7f5dab878e85a729d3eaf3c65415578867c63b6bdc1ff7a583e3",
+    "signature": ""
+  },
+  {
+    "seq": 432,
+    "timestamp": "2026-04-06T03:49:29.281Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "4ee9c307e8b0c984c3260b9b266978bf8731e1377858ce120f015acd298886f2",
+    "signature": ""
+  },
+  {
+    "seq": 433,
+    "timestamp": "2026-04-06T03:49:31.286Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "7d380fbf7cfb5d3ac7a09274c782797e7fb77649a0ac65471078a39abff88fc7",
+    "signature": ""
+  },
+  {
+    "seq": 434,
+    "timestamp": "2026-04-06T03:49:33.301Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "8ade1569b88a6522e216bb7a6160d0f7f95ae24e0a0db57231d1d8f97a475eac",
+    "signature": ""
+  },
+  {
+    "seq": 435,
+    "timestamp": "2026-04-06T03:49:35.306Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "c3a353d94fa0357abdfe8da6a848cdf52cadd8dfbd565df37f4cbd70f4fdc844",
+    "signature": ""
+  },
+  {
+    "seq": 436,
+    "timestamp": "2026-04-06T03:49:37.307Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "2258f9cccccafbd1f3cd7e076e5d9748ac4673aeb92fc5547421dd97dbfa3f0d",
+    "signature": ""
+  },
+  {
+    "seq": 437,
+    "timestamp": "2026-04-06T03:49:39.319Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "4c73c0e23eb3c635627047c9a923963382efbb9146b92470073d22500d9dd475",
+    "signature": ""
+  },
+  {
+    "seq": 438,
+    "timestamp": "2026-04-06T03:49:41.320Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "e443a49af6984a9266ca06636942a35e98c5850b0f3f2dd3f149dacd7727141c",
+    "signature": ""
+  },
+  {
+    "seq": 439,
+    "timestamp": "2026-04-06T03:49:43.329Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "895e8aacbad79c0e800c6c800fad77e1bfdac46b5ab20c8e6cf158415432c0a9",
+    "signature": ""
+  },
+  {
+    "seq": 440,
+    "timestamp": "2026-04-06T03:49:45.330Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "da3677b9c4b8b6d63266566e390a7751138a747180c9ae42558290d78030be34",
+    "signature": ""
+  },
+  {
+    "seq": 441,
+    "timestamp": "2026-04-06T03:49:47.334Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "171fa35c2de986df48e20e5e1a0628e41168ef3e489ed23d945ef064e29e5795",
+    "signature": ""
+  },
+  {
+    "seq": 442,
+    "timestamp": "2026-04-06T03:49:49.347Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "0c7d6f1ff9054db9bb40cb3a8acd52b1f4a8a0e9ce865afd07346a431697978f",
+    "signature": ""
+  },
+  {
+    "seq": 443,
+    "timestamp": "2026-04-06T03:49:51.350Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "51f0e3ea9e2b0a0af05e16f68d59ef57e8f1d136913c1465fec8057209a81187",
+    "signature": ""
+  },
+  {
+    "seq": 444,
+    "timestamp": "2026-04-06T03:49:53.352Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "cca06140698b9957a7a0af0171c2a126b3b8d12268392d81cf1003323e855849",
+    "signature": ""
+  },
+  {
+    "seq": 445,
+    "timestamp": "2026-04-06T03:49:55.353Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "df4189a81137e3684ec9d088efaf33a3ac4c1df22ef1aae36db7f27faebcd094",
+    "signature": ""
+  },
+  {
+    "seq": 446,
+    "timestamp": "2026-04-06T03:49:57.364Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "7fb0f3db7871f9f0211f2fac7e2bb719e16c95b16078c40dbf8a3624ebd9f10a",
+    "signature": ""
+  },
+  {
+    "seq": 447,
+    "timestamp": "2026-04-06T03:49:59.368Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "9d254dd30d87a1a9036f1eb6da25139de38c710306a99dd9ff34e3bbb36bc461",
+    "signature": ""
+  },
+  {
+    "seq": 448,
+    "timestamp": "2026-04-06T03:50:01.379Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "287395d9f1a060b46f3f3da29a2d10439dd63d062a69ad5291cfb0b0cedc2a8f",
+    "signature": ""
+  },
+  {
+    "seq": 449,
+    "timestamp": "2026-04-06T03:50:03.381Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "2753aca88f13d61feb22eff9c1e048b51e74b7c209245d494ca1cfc5ccc1caf8",
+    "signature": ""
+  },
+  {
+    "seq": 450,
+    "timestamp": "2026-04-06T03:50:05.387Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "2cd04d72c09812bb0a4f6e178a55ad8aada7fbcd0395d038344e68019bcfdb66",
+    "signature": ""
+  },
+  {
+    "seq": 451,
+    "timestamp": "2026-04-06T03:50:07.397Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "b2455de09ddac1c9b9f93afb8cc4deba4fdccfd9148dbc72b1a4ea0223f2633b",
+    "signature": ""
+  },
+  {
+    "seq": 452,
+    "timestamp": "2026-04-06T03:50:09.398Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "fac9782a8bd7e9fcb97f764772f066a0aa8b962300a554003c3be93b9644cdea",
+    "signature": ""
+  },
+  {
+    "seq": 453,
+    "timestamp": "2026-04-06T03:50:11.398Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "40da148d4f6ff92a769c33fcca68dfe257d8637ee382adeac1340f78610e9297",
+    "signature": ""
+  }
+]

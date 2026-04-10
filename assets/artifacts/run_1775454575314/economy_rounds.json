@@ -1,0 +1,658 @@
+[
+  {
+    "subtask_id": "e062af95-ecc8-40f0-871c-8d0c35b865cf",
+    "round_number": 1,
+    "timestamp": "2026-04-06T05:50:24.209Z",
+    "candidates": [
+      {
+        "agent_id": "Shard-Scholar-Cluster-10",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-12",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-4",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-11",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-7",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-9",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-6",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-8",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-2",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Elite-Scholar-0",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-13",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-0",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Elite-Scholar-1",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Elite-Scholar-2",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-5",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-1",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-3",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Elite-Scholar-4",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-14",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      }
+    ],
+    "winner": "Shard-Scholar-Cluster-10",
+    "selection_reason": "Highest net bid",
+    "budget_rejections": [],
+    "economy_score_breakdown": {
+      "arithmetic": "score - cost + bonus"
+    }
+  },
+  {
+    "subtask_id": "34f6d5b2-0760-475e-b75c-0e5f4dce1166",
+    "round_number": 1,
+    "timestamp": "2026-04-06T05:50:24.290Z",
+    "candidates": [
+      {
+        "agent_id": "Shard-Scholar-Cluster-10",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-12",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-4",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-11",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-7",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-9",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-6",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-8",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-2",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Elite-Scholar-0",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-13",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-0",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Elite-Scholar-1",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Elite-Scholar-2",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-5",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-1",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-3",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Elite-Scholar-4",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-14",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      }
+    ],
+    "winner": "Shard-Scholar-Cluster-10",
+    "selection_reason": "Highest net bid",
+    "budget_rejections": [],
+    "economy_score_breakdown": {
+      "arithmetic": "score - cost + bonus"
+    }
+  },
+  {
+    "subtask_id": "e062af95-ecc8-40f0-871c-8d0c35b865cf",
+    "round_number": 1,
+    "timestamp": "2026-04-06T05:50:39.232Z",
+    "candidates": [
+      {
+        "agent_id": "Shard-Scholar-Cluster-10",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-12",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-11",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-7",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-6",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-9",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-0",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Elite-Scholar-2",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-8",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-13",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-5",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-2",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Elite-Scholar-0",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-1",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-3",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-14",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Elite-Scholar-1",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-4",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Elite-Scholar-4",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      }
+    ],
+    "winner": "Shard-Scholar-Cluster-10",
+    "selection_reason": "Highest net bid",
+    "budget_rejections": [],
+    "economy_score_breakdown": {
+      "arithmetic": "score - cost + bonus"
+    }
+  },
+  {
+    "subtask_id": "34f6d5b2-0760-475e-b75c-0e5f4dce1166",
+    "round_number": 1,
+    "timestamp": "2026-04-06T05:50:39.243Z",
+    "candidates": [
+      {
+        "agent_id": "Shard-Scholar-Cluster-10",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-12",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-11",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-7",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-6",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-9",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-0",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Elite-Scholar-2",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-8",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-13",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-5",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-2",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Elite-Scholar-0",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-1",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-3",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-14",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Elite-Scholar-1",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Shard-Scholar-Cluster-4",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      },
+      {
+        "agent_id": "Elite-Scholar-4",
+        "cost": 1,
+        "score": 10,
+        "specialization_bonus": 0,
+        "net_bid": 9,
+        "rejection_reason": "Outbid by 0.0"
+      }
+    ],
+    "winner": "Shard-Scholar-Cluster-10",
+    "selection_reason": "Highest net bid",
+    "budget_rejections": [],
+    "economy_score_breakdown": {
+      "arithmetic": "score - cost + bonus"
+    }
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "seq": 1,
+    "timestamp": "2026-04-06T05:31:53.457Z",
+    "event_type": "SCORE_REBALANCED",
+    "agent_id": "LyapunovMonitor",
+    "payload_hash": "ef904b021055695b01a9267d25e92d8874687f9fc27f08389b5ef2f3f737f69d",
+    "causal_dag_hash": "aac0eda39e7e36f91b4c8fa31dbef7933eee39942f561cf82d47a46caf7cc31b",
+    "signature": ""
+  },
+  {
+    "seq": 2,
+    "timestamp": "2026-04-06T05:31:53.467Z",
+    "event_type": "LYAPUNOV_CRITICAL",
+    "agent_id": "LyapunovMonitor",
+    "payload_hash": "ce90d2eb9ec3a393e1264d914dd99700e857506b46bf1fbe5097f6636cd92876",
+    "causal_dag_hash": "232c1bd15852f29d8c70b361a224321dc29ff49187e0c92f7bac9daa1f83c5ac",
+    "signature": ""
+  },
+  {
+    "seq": 3,
+    "timestamp": "2026-04-06T05:31:59.488Z",
+    "event_type": "QE_STIMULUS_TRIGGERED",
+    "agent_id": "EconomicVelocityTracker",
+    "payload_hash": "5dbfc4791b2d371be2ef88d1e70b973a58bf4fc5c29f188103e4a9c2550ba3c3",
+    "causal_dag_hash": "0ec1fe6ffb7461b2b677b096b49b49030bdb0bfdb815e03e1c16e69667907613",
+    "signature": ""
+  }
+]

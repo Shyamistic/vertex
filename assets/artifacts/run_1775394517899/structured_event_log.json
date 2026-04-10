@@ -1,0 +1,11 @@
+[
+  {
+    "seq": 6,
+    "timestamp": "2026-04-05T13:08:37.944Z",
+    "event_type": "QE_STIMULUS_TRIGGERED",
+    "agent_id": "EconomicVelocityTracker",
+    "payload_hash": "7685a426beb34612b6c86d30c9adccda7b202f9fe05cd40148b843f17a4bb580",
+    "causal_dag_hash": "b2847b18492ccb78ea5e2c2e25f6ff69f44e8d02f6a01d06dd5fb4d0557d3ef1",
+    "signature": ""
+  }
+]

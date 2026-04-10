@@ -1,0 +1,38 @@
+[
+  {
+    "seq": 1,
+    "timestamp": "2026-04-05T13:23:14.823Z",
+    "event_type": "QE_STIMULUS_TRIGGERED",
+    "agent_id": "EconomicVelocityTracker",
+    "payload_hash": "5dbfc4791b2d371be2ef88d1e70b973a58bf4fc5c29f188103e4a9c2550ba3c3",
+    "causal_dag_hash": "2095bb94cba5a853e3151824aca5f60bc8b1fd6b8c232149cacf1529a212b33c",
+    "signature": ""
+  },
+  {
+    "seq": 3,
+    "timestamp": "2026-04-05T14:01:33.706Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "c7d4c0c27ef5f6f85155ae2188c2e164e637134281110269ffc04d1623f8fad8",
+    "causal_dag_hash": "456e2bf87bc46093e2dfbb642d0b8b14ac0df41a8e4f7966eb19d3c03a0d6400",
+    "signature": ""
+  },
+  {
+    "seq": 4,
+    "timestamp": "2026-04-05T14:01:35.717Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "5e8ca209e342b40cab5f70319da616b19ad9fc5ea37e41f6f584d87f404dca0e",
+    "signature": ""
+  },
+  {
+    "seq": 5,
+    "timestamp": "2026-04-05T14:01:37.792Z",
+    "event_type": "PERCOLATION_THRESHOLD_APPROACHING",
+    "agent_id": "PercolationMonitor",
+    "payload_hash": "122b39f270b93b925bdec2d71b32f787497103c2cafd5b63a80293aca97db955",
+    "causal_dag_hash": "a19001d312247fd1093e11af3e29ba869211c164d10c783408c809543d7b2217",
+    "signature": ""
+  }
+]
